@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@300&display=swap');
+
+h1 {
+    color:aliceblue;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 4em;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    margin-left: 2em;
+    margin-top: 1.5em;
+}
+h2 {
+    color: #83C5BE;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-bottom: -0.25em;
+}
+ul {
+    color: #007D77;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-left: 1.5em;
+}
+header {
+    max-width: 800px;
+    background-color: #006D77;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    border: 1px, aliceblue;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+picture {
+    grid-column: 3/4;
+    grid-row: 1/1;
+    padding: 1em;
+    margin-right: 2.5em;
+    border: 1px, aliceblue;
+    border-radius: 25px;
+}
+main {
+    background-color: aliceblue;
+    max-width: 800px;
+    display:grid;
+}
+footer {
+    text-align: center;
+    background-color: #83C5BE;
+    max-width: 800px;
+    padding-block: 1em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
