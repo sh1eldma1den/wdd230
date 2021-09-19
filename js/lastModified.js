@@ -1,1 +1,1 @@
-document.getElementById("lastModified").textContent = new Date().lastModified;;
+document.getElementById("lastModified").textContent = new Date(document.lastModified);;
