@@ -30,7 +30,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    border: 1px, aliceblue;
+    border: 1px aliceblue;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
@@ -39,7 +39,7 @@ picture {
     grid-row: 1/1;
     padding: 1em;
     margin-right: 2.5em;
-    border: 1px, aliceblue;
+    border: 1px aliceblue;
     border-radius: 25px;
 }
 main {
