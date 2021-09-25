@@ -27,15 +27,10 @@ ul {
 header {
     max-width: 800px;
     background-color: #006D77;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
 }
 picture {
-    grid-column: 3/4;
-    grid-row: 1/1;
-    padding: 1rem;
-    margin-right: 2.5rem;
+    width: 200px;
+    height: auto;
 }
 main {
     background-color: aliceblue;
