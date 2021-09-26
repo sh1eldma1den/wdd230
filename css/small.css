@@ -30,16 +30,15 @@ header {
     background-color: #006D77;
     padding-block: 2rem;
 }
-picture {
+.portrait {
     width: 200px;
     height: auto;
-    padding: 1rem;
 }
 main {
     background-color: aliceblue;
     max-width: 800px;
     display:grid;
-    padding: 1rem;
+    padding-block: 1rem;
 }
 footer {
     text-align: center;
