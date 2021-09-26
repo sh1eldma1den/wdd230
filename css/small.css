@@ -34,7 +34,6 @@ header {
 main {
     background-color: aliceblue;
     max-width: 800px;
-    display:grid;
 }
 footer {
     text-align: center;
