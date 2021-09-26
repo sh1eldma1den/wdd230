@@ -22,6 +22,9 @@ ul {
     font-weight: 300;
     margin-left: 1.5rem;
 }
+main ul li::before {
+    content: '&#8226'
+}
 header {
     max-width: 800px;
     background-color: #006D77;
