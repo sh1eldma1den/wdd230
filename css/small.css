@@ -27,8 +27,8 @@ header {
     background-color: #006D77;
     padding-block: 2rem;
 }
-.portrait {
-    width: 200px;
+.imgForHomepage {
+    width: 50%;
     height: auto;
 }
 main {
