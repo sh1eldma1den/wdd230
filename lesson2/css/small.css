@@ -19,7 +19,7 @@ h2 {
 p {
     font-family: Open Sans, sans-serif;
     background-color: aliceblue;
-    font-color: #006D77;
+    font: #006D77;
     padding-block: 1rem;
 }
 header {
@@ -37,32 +37,32 @@ main {
 .etsy {
     grid-column: 1/2;
     grid-row: 1/2;
-    padding: 1rem;
+    padding:0.5rem;
 }
 .etsyImg {
     max-width: 200px;
     max-height: auto;
-    padding: 1rem;
+    margin-top: .5rem;
 }
 .gme {
     grid-column: 2/3;
     grid-row: 1;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .gmeImg {
     max-width: 200px;
     max-height: auto;
-    padding: 1rem;
+    margin-top: .5rem;
 }
 .neflix {
     grid-column: 3/4;
     grid-row: 1;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .netflixImg {
     max-width: 200px;
     max-height: auto;
-    padding: 1rem;
+    margin: .5rem;
 }
 footer {
     text-align: center;
