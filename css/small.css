@@ -23,13 +23,15 @@ ul {
     margin-left: 1.5rem;
 }
 .imgForHomepage {
-    max-width: 100px;
+    max-width: 200px;
     height: auto;
+    padding: 1rem;
 }
 header {
     max-width: 800px;
     background-color: #006D77;
     padding-block: 2rem;
+    text-align: center;
 }
 
 main {

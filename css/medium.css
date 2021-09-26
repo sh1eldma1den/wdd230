@@ -5,14 +5,19 @@
     h2 {
         font-size: 2rem;
     }
-    header, footer {
+    header {
         border: 1px aliceblue;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
-    picture {
+  .imgForHomepage {
         float:right; 
         border: 1px aliceblue;
         border-radius: 25px;     
+    }
+    footer {
+        border: 1px aliceblue;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
     }
 }
