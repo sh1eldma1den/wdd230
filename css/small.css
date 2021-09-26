@@ -23,7 +23,7 @@ ul {
     margin-left: 1.5rem;
 }
 main ul li::before {
-    content: '&#8226'
+    content: 'square'
 }
 header {
     max-width: 800px;
