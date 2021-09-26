@@ -22,9 +22,6 @@ ul {
     font-weight: 300;
     margin-left: 1.5rem;
 }
-main ul li::before {
-    content: 'square'
-}
 header {
     max-width: 800px;
     background-color: #006D77;
@@ -38,7 +35,6 @@ main {
     background-color: aliceblue;
     max-width: 800px;
     display:grid;
-    padding-block: 1rem;
 }
 footer {
     text-align: center;
