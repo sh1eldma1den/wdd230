@@ -28,7 +28,7 @@ main ul li::before {
 header {
     max-width: 800px;
     background-color: #006D77;
-    padding-block: 3rem;
+    padding-block: 2rem;
 }
 picture {
     width: 200px;
