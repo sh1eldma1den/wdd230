@@ -28,14 +28,12 @@ p {
 header {
     background-color: #006D77;
     padding-block: 2rem;
-    max-width:800px;
 }
 main {
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1rem;
-    max-width:800px;
 }
 .etsy {
     grid-column: 1/2;
@@ -59,8 +57,8 @@ main {
     margin-top: .5rem;
 }
 .neflix {
-    grid-column: 3/4;
-    grid-row: 1;
+    grid-column: 1/2;
+    grid-row: 2;
     padding: 0.5rem;
 }
 .netflixImg {
