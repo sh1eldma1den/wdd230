@@ -16,6 +16,9 @@ h2 {
     margin-bottom: -0.75rem;
     padding: 1rem;
 }
+#mainContent {
+    max-width:800px;
+ }
 ul {
     color: #007D77;
     font-family: 'Open Sans', sans-serif;
@@ -28,7 +31,6 @@ ul {
     padding: 1rem;
 }
 header {
-    max-width: 800px;
     background-color: #006D77;
     text-align: center;
     padding-block: 2rem;
@@ -36,12 +38,10 @@ header {
 
 main {
     background-color: aliceblue;
-    max-width: 800px;
     padding-block: 1rem;
 }
 footer {
     text-align: center;
     background-color: #83C5BE;
-    max-width: 800px;
     padding-block: 1rem;
 }

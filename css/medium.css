@@ -10,6 +10,10 @@
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
+    #mainContent {
+        margin-left: auto;
+        margin-right: auto;
+     }
   .imgForHomepage {
         float:right; 
         border: 1px aliceblue;
