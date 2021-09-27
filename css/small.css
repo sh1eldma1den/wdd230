@@ -5,16 +5,16 @@ h1 {
     font-family: 'Arvo', serif;
     font-weight: 400;
     font-size: 2rem;
-    margin-left: 2rem;
-    margin-top: 1.5rem;
 }
 h2 {
     color: #006D77;
     font-family: 'Arvo', serif;
     font-weight: 400;
     font-size: 1rem;
-    margin-left: 1rem;
-    margin-bottom: -0.25rem;
+    margin-left: .75rem;
+    margin-top: -0.75rem;
+    margin-bottom: -0.75rem;
+    padding: 1rem;
 }
 ul {
     color: #007D77;
@@ -30,13 +30,14 @@ ul {
 header {
     max-width: 800px;
     background-color: #006D77;
-    padding-block: 2rem;
     text-align: center;
+    padding-block: 2rem;
 }
 
 main {
     background-color: aliceblue;
     max-width: 800px;
+    padding-block: 1rem;
 }
 footer {
     text-align: center;

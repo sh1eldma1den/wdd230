@@ -22,6 +22,12 @@ p {
     font: #006D77;
     padding-block: 1rem;
 }
+#content {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 header {
     max-width: 800px;
     background-color: #006D77;
