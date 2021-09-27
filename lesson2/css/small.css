@@ -23,32 +23,30 @@ p {
     padding-block: 1rem;
 }
 #content {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    margin-right: auto;
+   max-width:800px;
 }
 header {
-    max-width: 800px;
     background-color: #006D77;
     padding-block: 2rem;
+    max-width:800px;
 }
 main {
     background-color: aliceblue;
-    max-width: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
+    max-width:800px;
 }
 .etsy {
     grid-column: 1/2;
     grid-row: 1/2;
-    padding:0.5rem;
+    padding:.75rem;
 }
 .etsyImg {
     max-width: 200px;
     max-height: auto;
-    margin-top: .5rem;
+    margin-top: .75rem;
+    text-align: center;
 }
 .gme {
     grid-column: 2/3;
@@ -73,6 +71,6 @@ main {
 footer {
     text-align: center;
     background-color: #83C5BE;
-    max-width: 800px;
     padding-block: 1rem;
+    max-width:800px;
 }
