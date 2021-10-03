@@ -5,6 +5,12 @@
     h2 {
         font-size: 2rem;
     }
+    nav ul { 
+        display: flex; 
+    }
+	nav ul li { 
+        flex: 1 1 100%; 
+    } 
     #mainContent {
         margin-left: auto;
         margin-right: auto;
