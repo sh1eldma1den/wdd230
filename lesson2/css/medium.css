@@ -5,38 +5,11 @@
     h2 {
         font-size: 2rem;
     }
-    #content {
+    #mainContent {
         margin-left: auto;
         margin-right: auto;
      }
-    header {
-        border: 1px aliceblue;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
-    }
     main{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 1rem;
-    }
-    .etsy {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        padding:.75rem;
-    }
-    .gme {
-        grid-column: 2/3;
-        grid-row: 1;
-        padding: 0.5rem;
-    }
-    .neflix {
-        grid-column: 1/2;
-        grid-row: 2;
-        padding: 0.5rem;
-    }
-    footer {
-        border: 1px aliceblue;
-        border-bottom-left-radius: 25px;
-        border-bottom-right-radius: 25px;
+        padding-block: 1rem;
     }
 }

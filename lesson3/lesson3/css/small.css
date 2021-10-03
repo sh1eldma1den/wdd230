@@ -5,42 +5,51 @@ h1 {
     font-family: 'Arvo', serif;
     font-weight: 400;
     font-size: 2rem;
-    text-align: center;
 }
 h2 {
     color: #006D77;
     font-family: 'Arvo', serif;
     font-weight: 400;
     font-size: 1rem;
-    margin-left: 1rem;
-    margin-bottom: -0.25rem;
-    text-align: center;
+    margin-left: .75rem;
+    margin-top: -0.75rem;
+    margin-bottom: -0.75rem;
+    padding: 1rem;
 }
-p {
-    font-family: Open Sans, sans-serif;
-    background-color: aliceblue;
-    font: #006D77;
-    padding-block: 1rem;
+h3 {
+    color: #006D77;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: .9rem; 
+    margin-left: .75rem;
+    margin-top: -0.75rem;
+    margin-bottom: -0.75rem;
+    padding: 1rem;
 }
 #mainContent {
     max-width:800px;
+ }
+nav {
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
 header {
     background-color: #006D77;
-    padding-block: 2rem;
     text-align: center;
-}
-.imgForHomepage {
-    max-width: 200px;
-    padding: 1rem;
+    padding-block: 2rem;
 }
 main {
-    background-color: aliceblue;
     padding-block: 1rem;
+}
+#logo-img {
+    max-width: 200px;
+}
+#color-scheme {
+    max-width: 300px;
 }
 footer {
     text-align: center;
     background-color: #83C5BE;
     padding-block: 1rem;
-    max-width:800px;
 }
