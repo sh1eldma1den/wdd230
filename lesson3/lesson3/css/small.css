@@ -62,8 +62,10 @@ nav {
     font-family: 'Arvo', serif;
     font-weight: 400;
     font-size: 1rem;
+    font: white;
+    background-color: #25283D;
 }   
-    nav ul {
+nav ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -76,7 +78,11 @@ nav ul li a {
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
-}
+    }
+nav a:hover {
+    background-color: #25283D;    
+    color: #EF767A;
+    }
 header {
     background-color: #006D77;
     text-align: center;
