@@ -18,4 +18,11 @@
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
         overflow: hidden;
     }
+    ul {
+        margin-block-start: 1rem;
+        margin-block-end: 1rem;
+        margin-inline-end: 0px;
+        margin-inline-start: 0px;
+        padding-inline-start: 40px;
+    }
 }
