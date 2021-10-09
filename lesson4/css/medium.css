@@ -86,7 +86,7 @@
         float: right;
         position: absolute;
         right: 5px;
-        bottom: 5px;
+        top: 5px;
         padding: .5rem;
     }
     #article-p {
