@@ -1,0 +1,105 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        display: block;
+    }
+    .logo-img {
+       position: absolute;
+       top: 1.5%;
+       left: 20%;
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display:block;
+    }
+    nav ul li {
+        float:left;
+    }
+    nav ul li a {
+        border:none;
+        padding: .8rem, 1rem;
+        margin-left: 10%;
+    }
+    #mainContent {
+        margin-left: 10%;
+        margin-right: 10%;
+     }    
+    #hero-img {
+        width: 80vw;
+        height: 200px;
+    } 
+    #first-block {   
+        border-color: #5C5C5C;
+        border-width: .5px;
+        position: relative;
+    }
+    #weather-summary {
+        float: left;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        border-style: solid;
+        border-color: #5C5C5C;
+        border-width: .5px;
+        max-width: 125px;
+        max-height: 125px;
+        overflow: hidden;
+        word-wrap: normal;
+    }
+    #forecast {
+        background-color: none;
+        border:hidden;
+        margin-bottom: 1rem;
+    }
+    #forecast-title {
+        color: #023047;
+        text-align: none;
+    }
+    #small-img-div {
+        background-color: #EBEBEB;
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-style: solid;
+        border-color: #5C5C5C;
+        border-width: .5px;
+    }
+    .small-img{
+        max-width:70px;
+        max-height: 75px;
+        display:inline-block;
+        text-align: justify;
+        text-justify: distribute-all-lines;
+        margin-top:.25rem;
+        margin-bottom: .5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        overflow: hidden;
+    }
+    #article-div{
+        position:relative;
+        overflow: auto;
+        max-height: fit-content;
+    }
+    #article-img {
+        float: right;
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        padding: .5rem;
+    }
+    #article-p {
+        clear:right; 
+    }  
+    #contact-info {
+       float: right;
+       text-align: left;
+    }
+    #map-img {
+        clear:left;
+    }
+    #footer-span {
+        background-color: #006BA6;
+    }
+}

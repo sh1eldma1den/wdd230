@@ -1,1 +1,3 @@
-document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
+function toggle() {
+    document.getElementsByClassName("primaryNav")[0].classList.toggle("hide");
+}
