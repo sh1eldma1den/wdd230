@@ -19,7 +19,7 @@
     }
     nav ul li a {
         border:none;
-        padding: .8rem, 1rem;
+        padding: .8rem 1rem;
         margin-left: 10%;
     }
     #mainContent {
@@ -49,13 +49,13 @@
         word-wrap: normal;
     }
     #forecast {
-        background-color: none;
+        background-color: white;
         border:hidden;
         margin-bottom: 1rem;
     }
     #forecast-title {
         color: #023047;
-        text-align: none;
+        text-align: left;
     }
     #small-img-div {
         background-color: #EBEBEB;
@@ -71,7 +71,6 @@
         max-height: 75px;
         display:inline-block;
         text-align: justify;
-        text-justify: distribute-all-lines;
         margin-top:.25rem;
         margin-bottom: .5rem;
         margin-left: 3rem;
