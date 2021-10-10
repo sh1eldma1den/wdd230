@@ -44,13 +44,18 @@ header {
     margin-top: 3rem;
 }
 .siteName {
+    clear:left;
     padding: 2rem;
     margin-bottom: -2rem;
     margin-top: 2rem;
 }
 .motto {
+    clear:left;
     margin-top: -4rem;
     padding: 2rem;
+}
+#nameAndMotto{
+    padding: 1rem;
 }
 nav button {
     margin: .2rem 2%;
