@@ -95,9 +95,11 @@
     #contact-info {
        float: right;
        text-align: left;
+       margin-right: 10%
     }
     #map-img {
         clear:left;
+        margin-left:10%
     }
     #footer-span {
         background-color: #006BA6;
