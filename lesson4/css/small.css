@@ -40,6 +40,9 @@ header {
 .logo-img {
     max-width: 100px;
     float: left;
+    position: absolute;
+    left: 5%;
+    top: 5%;
     padding: .5rem;
     margin-top: 3rem;
 }
@@ -55,7 +58,9 @@ header {
     padding: 2rem;
 }
 #nameAndMotto{
+    clear: left;
     padding: 1rem;
+    position: relative;
 }
 nav button {
     margin: .2rem 2%;
