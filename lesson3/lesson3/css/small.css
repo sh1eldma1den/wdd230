@@ -48,13 +48,21 @@ h6 {
     font-size: .9rem; 
 }
 h7 {
-    font-family: Open Sans, sans-serif;
-    font: #023047;
+    font-family: 'Open Sans', sans-serif;
+    color: #023047;
 }
 p {
-    font-family: Open Sans, sans-serif;
-    font: #006D77;
+    font-family: 'Open Sans', sans-serif;
+    color: #006D77;
     padding: 1rem;
+}
+header {
+    background-color: #006D77;
+    text-align: center;
+    padding-block: 2rem;
+}
+main {
+    padding-block: 1rem;
 }
 #mainContent {
     max-width:800px;
@@ -63,7 +71,7 @@ nav {
     font-family: 'Arvo', serif;
     font-weight: 400;
     font-size: 1rem;
-    font: white;
+    color: white;
     background-color: #25283D;
     text-align: center;
     margin-top: -3rem;
@@ -86,14 +94,8 @@ nav a :hover {
     background-color: #25283D;    
     color: #EF767A;
     }
-header {
-    background-color: #006D77;
-    text-align: center;
-    padding-block: 2rem;
-}
-main {
-    padding-block: 1rem;
-}
+
+
 #logo-img {
     max-width: 200px;
 }
