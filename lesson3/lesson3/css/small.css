@@ -73,8 +73,8 @@ nav {
     font-size: 1rem;
     color: white;
     background-color: #25283D;
-    text-align: center;
-    margin-top: -3rem;
+   justify-content: center;
+   margin-top: -1rem;
 }   
 nav ul {
         list-style-type: none;
@@ -90,12 +90,10 @@ nav ul li a {
 	text-decoration: none;
 	font-size: 0.95rem;
     }
-nav a :hover {
+nav a:hover {
     background-color: #25283D;    
     color: #EF767A;
     }
-
-
 #logo-img {
     max-width: 200px;
 }
