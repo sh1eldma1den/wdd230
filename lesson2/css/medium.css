@@ -5,16 +5,31 @@
     h2 {
         font-size: 2rem;
     }
-    nav ul { 
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    }
     #mainContent {
         margin-left: auto;
         margin-right: auto;
      }
     main{
         padding-block: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr 1fr;
+    }
+    .etsy {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        padding:.75rem;
+        max-width:500px;
+        justify-content: center;
+    }
+    .gme {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        padding: 0.5rem;
+    }
+    .neflix {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        padding: 0.5rem;
     }
 }
