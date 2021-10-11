@@ -30,6 +30,8 @@ p {
 }
 header {
     display: flex;
+    position: relative;
+    justify-content: center;
 }
 .logo-banner {
     background-color:#70C3FF;
@@ -39,30 +41,27 @@ header {
 }
 .logo-img {
     max-width: 100px;
-    float: left;
     position: absolute;
-    left: 5%;
-    top: 5%;
+    float: left;
+    left: 25px;
+    top: 1.5%;
     padding: .5rem;
     margin-top: 3rem;
+    shape-outside: circle();
 }
 .siteName {
-    clear:left;
     padding: 2rem;
     margin-bottom: -2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 .motto {
-    clear:left;
     margin-top: -4rem;
     padding: 2rem;
 }
 #nameAndMotto{
-    clear: left;
     padding: 1rem;
-    position: relative;
 }
-nav button {
+.hamburger {
     margin: .2rem 2%;
     background-color: transparent;
     border:none;
@@ -75,27 +74,33 @@ nav {
     font-family: 'Open Sans', sans-serif;
     text-decoration: none;
 }
-nav ul {
+.navigation {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-nav ul li a {
+.navigation li:first-child {
     display: block;
     padding: .8rem 2%; 
-    text-decoration: none; 
-    color: white;
-    border-top: 1px solid rgba(0,0,0,0.3);
 }
-nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: white;
-}
-nav ul li a:hover {
-    background-color: rgba(0,0,0,0.4);
-}
-nav ul.hide{
+.navigation li{
     display:none;
+}
+.navigation a {
+    display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover {
+    color: #006BA6;
+	background-color: white;
+}
+.responsive li {
+	display: block;
 }
 #mainContent {
     margin: 0;

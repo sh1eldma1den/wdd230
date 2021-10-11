@@ -5,23 +5,21 @@
     .logo-img {
        position: absolute;
        top: 1.5%;
-       left: 20%;
        padding:1rem;
     }
-    nav button {
-        display: none;
+    .navigation {
+        display: flex;
     }
-    nav ul.hide {
-        display:block;
-    }
-    nav ul li {
-        float:left;
-    }
-    nav ul li a {
-        border:none;
-        padding: .8rem 1rem;
-        margin-left: 10%;
-    }
+	.navigation li {
+		display: block;
+        flex: 1 1 auto;
+	}
+    .navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
     #mainContent {
         margin-left: 10%;
         margin-right: 10%;
