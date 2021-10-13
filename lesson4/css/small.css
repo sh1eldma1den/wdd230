@@ -30,7 +30,8 @@ p {
 }
 header {
     display: flex;
-    position: relative;
+    padding: 5px 0;
+    align-items: center;
     justify-content: center;
 }
 .logo-banner {
@@ -38,6 +39,7 @@ header {
     padding: 1rem;
     margin: 0;
     text-align: center;
+    flex-direction: column;
 }
 .logo-img {
     max-width: 100px;
@@ -101,6 +103,7 @@ nav {
 }
 .responsive li {
 	display: block;
+    float: inline-end;
 }
 #mainContent {
     margin: 0;
