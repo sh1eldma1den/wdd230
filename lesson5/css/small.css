@@ -98,6 +98,10 @@ nav {
 	font-weight: 700;
 	transition: 0.5s;
 }
+.active{
+    color:#006BA6;
+    background-color: #70C3FF;
+}
 .navigation a:hover {
     color: #006BA6;
 	background-color: white;
@@ -106,10 +110,7 @@ nav {
 	display: block;
     float: inline-end;
 }
-.active{
-    color:#006BA6;
-    background-color: #70C3FF;
-}
+
 #mainContent {
     margin: 0;
  }
