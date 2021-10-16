@@ -5,6 +5,7 @@ h1 {
     font-family: 'Arvo', serif;
     font-weight: 200;
     font-size: 2rem; 
+    text-shadow: #023047;
 }
 h2 {
     color: #006BA6;
@@ -30,7 +31,7 @@ p {
 }
 header {
     display: flex;
-    padding: 5px 0;
+    padding: 0;
     align-items: center;
     justify-content: center;
 }
@@ -104,6 +105,10 @@ nav {
 .responsive li {
 	display: block;
     float: inline-end;
+}
+.active{
+    color:#006BA6;
+    background-color: #70C3FF;
 }
 #mainContent {
     margin: 0;
