@@ -146,6 +146,7 @@ nav {
  }
  #article-img {
      align-items: center;
+     max-width: 200px;
  }
  footer {
     background-color: #70C3FF;
