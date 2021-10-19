@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@300&display=swap');
 * {
 	margin: 0;
 	padding: 0;
@@ -10,18 +10,19 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-size: 18px;
-	font-family: Acme, Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
 	font-size: 1.5rem;
+	font-family: 'Arvo', sans-serif;
 }
 
 main {
 	margin: 0.5rem auto;
-	border: 1px solid #999;
+	border: 1px solid rgb(1, 84, 179);
 	padding: 0.5rem;
-	background-color: #bed;
+	background-color: aliceblue;
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 95%;
@@ -36,6 +37,8 @@ button {
 
 input {
 	width: 200px;
+	padding: .75rem;
+	margin-top: .75rem;
 }
 
 label {
@@ -63,13 +66,4 @@ li {
 	margin-bottom: 0.5rem;
 }
 
-@media only screen and (min-width: 32.5em) {
-	h1 {
-		font-size: 2rem;
-	}
-
-	main {
-		width: 480px;
-	}
-}
 
