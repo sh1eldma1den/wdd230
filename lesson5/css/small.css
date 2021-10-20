@@ -5,10 +5,10 @@ h1 {
     font-family: 'Arvo', serif;
     font-weight: 200;
     font-size: 2rem; 
-    text-shadow: #050505;
+    text-shadow: 2px 2px #1f1f1f;
 }
 h2 {
-    color: #006BA6;
+    color: #023047;
     font-family: 'Arvo', serif;
     font-weight: 400;
     font-size: 1.5rem; 
@@ -89,6 +89,10 @@ nav {
 .navigation li{
     display:none;
 }
+.active{
+    color:#006BA6;
+    background-color: #70C3FF;
+}
 .navigation a {
     display: block;
 	padding: 0.75rem;
@@ -97,10 +101,6 @@ nav {
 	color: white;
 	font-weight: 700;
 	transition: 0.5s;
-}
-.active{
-    color:#006BA6;
-    background-color: #70C3FF;
 }
 .navigation a:hover {
     color: #006BA6;
