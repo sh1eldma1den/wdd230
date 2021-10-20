@@ -50,7 +50,6 @@ header {
     top: 1.5%;
     padding: .5rem;
     margin-top: 3rem;
-    shape-outside: circle();
 }
 .siteName {
     padding: 2rem;
