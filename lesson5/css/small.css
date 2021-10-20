@@ -32,10 +32,10 @@ p {
 header {
     display: flex;
     padding: 0;
-    align-items: center;
-    justify-content: center;
+    max-width: 100%;
 }
 .logo-banner {
+    display: flex;
     background-color:#70C3FF;
     padding: 1rem;
     margin: 0;
@@ -44,12 +44,8 @@ header {
 }
 .logo-img {
     max-width: 100px;
-    position: absolute;
-    float: left;
     left: 25px;
-    top: 1.5%;
-    padding: .5rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 .siteName {
     padding: 2rem;
