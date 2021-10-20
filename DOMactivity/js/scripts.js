@@ -3,10 +3,10 @@ const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
 button.addEventListener('click', function () {
-    let myScrptr = input.value;
-    if (input.value == null) {
+    let myScrptr = favChap.value;
+    if (favChap.value == null) {
         return;
-    } else input.value = ' ';
+    } else if (favChap.value == '') return;
     
 
     const listItem = document.createElement('li');
@@ -16,14 +16,14 @@ button.addEventListener('click', function () {
     listItem.appendChild(listText);
     listText.textContent = myScrptr;
     listItem.appendChild(listButn);
-    listButn.textContent = '&#10060';
+    listButn.textContent = '❌';
     list.appendChild(listItem);
 
-    button.addEventListener('click' , function(e) {
+   listButn.addEventListener('click' , function(e) {
         list.removeChild(listItem);
     }
     )
 
-    input.focus();
+    favChap.focus();
 }
 )
