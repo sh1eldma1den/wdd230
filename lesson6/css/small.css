@@ -138,7 +138,6 @@ nav {
     #currently-img {
         grid-column: 2/3;
         grid-row: 2/3;
-        display: normal;
     }
     #overcast-img {
         max-height: 50px;
@@ -193,7 +192,6 @@ nav {
     padding: 1rem;
  }
  #article-img {
-     align-items: right;
      max-width: 200px;
  }
  footer {
