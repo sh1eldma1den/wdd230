@@ -5,7 +5,7 @@ h1 {
     font-family: 'Arvo', serif;
     font-weight: 200;
     font-size: 2rem; 
-    text-shadow: 3px 2px #1f1f1f;
+    text-shadow: 2px 2px 2px #1f1f1f;
 }
 h2 {
     color: #023047;
@@ -125,6 +125,7 @@ nav {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 0;
+        box-shadow: 2px 2px 2px 2px #1f1f1f;
     }
     #titleCurrently {
         grid-column: 1/2;
