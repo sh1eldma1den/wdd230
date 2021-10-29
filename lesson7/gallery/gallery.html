@@ -17,12 +17,13 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/lastModified.js"></script>
     <script defer src="js/windChill.js"></script>
+    <script defer src="js/lazyload.js"></script>
    
 </head>
 <body>
     <header>
         <div class="logo-banner">
-            <picture><img class="logo-img" src="images/optimized/logo-final.png" alt="SEI skies logo"></picture>
+            <picture><img class="logo-img" src="images/logo-final.png" alt="SEI skies logo"></picture>
             <section class="nameAndMotto">
                 <h1 class="siteName">Southeast Idaho Skies</h1>
                 <h3 class="motto">Bringing the skies - and more - to you!</h3>
@@ -37,28 +38,110 @@
             <ul class="navigation responsive">
                 <li><a href ="#" class="hamburger">&#9776;</a></li>
                 <li><a href="">Home</a></li>
-                <li><a href="preston-6.html" class="active">Preston</a></li>
+                <li><a href="preston-6.html">Preston</a></li>
                 <li><a href="">Soda Springs</a></li>
                 <li><a href="">Fish Haven</a></li>
                 <li><a href="">Storm Center</a></li>
-                <li><a href="">Gallery</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
             </ul>
         </nav>
     </nav>
-    <div id="mainContent">
+    <h2>Weather Gallery</h2>
+    <div id="galleryContent">
+        
+        
+            <picture class="img-container" id="picture-one">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/bluelightning.jpg"
+              alt="blue lightning"
+            />
+            <p>Lightning caught by John Rasmussen of Preston, Idaho.</p>
+          </picture>
+          
+          <picture class="img-container" id="picture-two">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/cabin.png"
+              alt="cabin in a snowy moutainside"
+            /><p>Kimberly Richardson caught this fantasy snowscape near Clifton, Idaho.</p>
+          </picture>
+          
+          <picture class="img-container"id="picture-three">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/cloud-swirl.jpg"
+              alt="a swirl of a shelf cloud in a field."
+            />
+            <p>Incoming storm just outside Franklin, Idaho. Image courtesy of Rob Herron.</p>
+          </picture>
+          
+          <picture class="image-container" id="picture-four">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/dandelion.jpg"
+              alt="a dandellion blown by the wind"
+            />
+            <p>Sixth-grader Bethany Hewitt captured the wind from this week's incoming cold front.</p>
+          </picture>
+          
+          <picture class="image-container" id="picture-five">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/frost.jpg"
+              alt="close-up shot of frost"
+            />
+             <p>Wendy Hammond captured this frost buildup on her back door window in Soda Springs, Idaho.</p>
+          </picture>
+         
+          <picture class="image-container" id="picture-six">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/lightning.jpg"
+              alt="evening shot of lightning touching the ground"
+            />
+            <p>Spectacular shot of lightning outside Fish Haven, Idaho submitted by Ida Leethe.</p>
+          </picture>
 
-        <footer>
-            <div id="contact-info">
-                 <h2>Contact Information</h2>
-                <p>Email icon and <a href="">email address</a> <br>
-                Phone icon and  <a href="">phone number</a></p>
-            </div>
-            <img src="images/optimized/map.jpg" id="map-img" alt="placeholder image for a map"><br><br><br><br><br>
+          <picture class="image-container" id="picture-seven">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/stormy-road.jpg"
+              alt="storm developing over a dirt road and field"
+            />
+            <p>Stan Corless caught a massive storm building as it moved over his farmland in Preston, Idaho.</p>
+          </picture>
+
+          <picture class="image-container" id="picture-eight">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/trees-clouds.jpg"
+              alt="dramatic clouds with silhouetted pine trees"
+            />
+            <p>The rising sun lit portions of the cloud cover in Soda Springs, Idaho. Picture courtesy of Ethan Wilds.</p>
+          </picture>
+
+          <picture class="image-container" id="picture-nine">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/treeslightning.jpg"
+              alt="violent lightning striking near trees"
+            />
+            <p>One of our own storm chasers, Phil Branley, caught this incredible shot just east of Fish Haven, Idaho.</p>
+          </picture>
+    </div>  
+     <footer>
+        <div id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email icon and <a href="">email address</a> <br>
+            Phone icon and  <a href="">phone number</a></p>
+        </div>
+            <img src="images/map.jpg" id="map-img" alt="placeholder image for a map"><br><br><br><br><br>
             &copy; <span id="copyrightyear"></span> | Megan Moore | South Carolina | <a href="https://www.byui.edu/online">BYUI Online</a> <br><br>                Last modified on <span id="lastModified"></span>. 
             <span id="footer-span"><br><br><br></span>
         
-        </footer>
-    </div>
+     </footer>
+    
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({google: {families: ['Roboto']}});

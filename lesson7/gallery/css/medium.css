@@ -135,6 +135,48 @@
     #article-p {
         clear:right; 
     }  
+    #galleryContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    .picture-one {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .picture-two {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .picture-three {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .picture-four {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .picture-five {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .picture-six {
+        grid-column: 2/3;
+        grid-row: 3/4;;
+    }
+    .picture-seven {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .picture-eight {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .picture-nine {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
     #contact-info {
        float: right;
        text-align: left;
