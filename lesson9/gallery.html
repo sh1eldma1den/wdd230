@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Megan Moore">
+    <meta name="description" content="Your one stop for weather and events in Southeastern Idaho.">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Weather Gallery</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css"> 
+    <script defer src="js/toggle.js"></script> 
+    <script src="js/pancakes.js"></script>
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/lastModified.js"></script>
+    <script defer src="js/windChill.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <script defer src="js/lastVisit.js"></script>
+   
+</head>
+<body>
+    <header>
+        <div class="logo-banner">
+            <picture><img class="logo-img" src="images/logo-final.png" alt="SEI skies logo"></picture>
+            <section class="nameAndMotto">
+                <h1 class="siteName">Southeast Idaho Skies</h1>
+                <h3 class="motto">Bringing the skies - and more - to you!</h3>
+            </section>
+        </div>
+    
+    
+        
+    </header>
+    <span id="pancakes-span"></span>
+        <nav class="clearfix">
+            <ul class="navigation responsive">
+                <li><a href ="#" class="hamburger">&#9776;</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="preston-6.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="">Storm Center</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+        </nav>
+    
+    <h2>Weather Gallery</h2>
+    <section id="galleryContent">
+        
+        
+            <fig class="img-container" id="picture-one">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/bluelightning.jpg"
+              alt="blue lightning"
+            />
+            <figcaption>Lightning caught by John Rasmussen of Preston, Idaho.</figcaption>
+            </fig>
+          
+            <fig class="img-container" id="picture-two">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/cabin.png"
+              alt="cabin in a snowy moutainside"
+            /><figcaption>Kimberly Richardson caught this fantasy snowscape near Clifton, Idaho.</figcaption>
+          </fig>
+          
+          <fig class="img-container" id="picture-three">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/cloud-swirl.jpg"
+              alt="a swirl of a shelf cloud in a field."
+            />
+            <figcaption>Incoming storm just outside Franklin, Idaho. Image courtesy of Rob Herron.</figcaption>
+          </fig>
+          
+          <fig class="img-container" id="picture-four">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/dandelion.jpg"
+              alt="a dandellion blown by the wind"
+            />
+            <figcaption>Sixth-grader Bethany Hewitt captured the wind from this week's incoming cold front.</figcaption>
+          </fig>
+          
+          <fig class="img-container" id="picture-five">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/frost.jpg"
+              alt="close-up shot of frost"
+            />
+             <figcaption>Wendy Hammond captured this frost buildup on her back door window in Soda Springs, Idaho.</figcaption>
+          </fig>
+         
+          <fig class="img-container" id="picture-six">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/lightning.jpg"
+              alt="evening shot of lightning touching the ground"
+            />
+            <figcaption>Spectacular shot of lightning outside Fish Haven, Idaho submitted by Ida Leethe.</figcaption>
+          </fig>
+
+          <fig class="img-container" id="picture-seven">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/stormy-road.jpg"
+              alt="storm developing over a dirt road and field"
+            />
+            <figcaption>Stan Corless caught a massive storm building as it moved over his farmland in Preston, Idaho.</figcaption>
+          </fig>
+
+          <fig class="img-container" id="picture-eight">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/trees-clouds.jpg"
+              alt="dramatic clouds with silhouetted pine trees"
+            />
+            <figcaption>The rising sun lit portions of the cloud cover in Soda Springs, Idaho. Picture courtesy of Ethan Wilds.</figcaption>
+          </fig>
+
+          <fig class="img-container" id="picture-nine">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/treeslightning.jpg"
+              alt="violent lightning striking near trees"
+            />
+            <figcaption>One of our own storm chasers, Phil Branley, caught this incredible shot just east of Fish Haven, Idaho.</figcaption>
+          </fig>
+          
+        </section>  
+    <div id="daysSince"></div>
+     <footer>
+        <div id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Email icon and <a href="">email address</a> <br>
+            Phone icon and  <a href="">phone number</a></p>
+        </div>
+            <img src="images/map.jpg" id="map-img" alt="placeholder image for a map"><br><br><br><br><br>
+            &copy; <span id="copyrightyear"></span> | Megan Moore | South Carolina | <a href="https://www.byui.edu/online">BYUI Online</a> <br><br>                Last modified on <span id="lastModified"></span>. 
+            <span id="footer-span"><br><br><br></span>
+        
+     </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ['Roboto']}});
+    </script>
+</body>
+</html>

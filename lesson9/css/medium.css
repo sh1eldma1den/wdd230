@@ -1,0 +1,192 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        display: block;
+    }
+    .logo-img {
+       position: absolute;
+       top: 1.5%;
+       padding:1rem;
+    }
+    .navigation {
+        display: flex;
+    }
+	.navigation li {
+		display: block;
+        flex: 1 1 auto;
+	}
+    .navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+    #mainContent {
+        margin-left: 10%;
+        margin-right: 10%;
+     }    
+    .hero-img {
+        width: 80vw;
+        height: 200px;
+    } 
+    #first-block {   
+        border-color: #5C5C5C;
+        border-width: .5px;
+        position: relative;
+    }
+    #weather-summary {
+        float: left;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        border-style: solid;
+        border-color: #5C5C5C;
+        border-width: .5px;
+        max-width: 200px;
+        max-height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: .5rem;
+    }
+    #titleCurrently {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    #currently {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    #currently-img {
+        display: none;
+    }
+    #titleTemp {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    #temperature {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    #titleWindChill {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    #windChill {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    #titleHumidity {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    #humidity {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    #titleWindSpeed {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    #windSpeed {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+    #forecast {
+        background-color: white;
+        border:hidden;
+        margin-bottom: 1rem;
+    }
+    #forecast-title {
+        color: #023047;
+        text-align: left;
+    }
+    #small-img-div {
+        background-color: #EBEBEB;
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-style: solid;
+        border-color: #5C5C5C;
+        border-width: .5px;
+    }
+    .small-img{
+        max-width:70px;
+        max-height: 75px;
+        display:inline-block;
+        text-align: justify;
+        margin-top:.25rem;
+        margin-bottom: .5rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        overflow: hidden;
+    }
+    #article-div{
+        position:relative;
+        overflow: auto;
+        max-height: fit-content;
+    }
+    #article-img {
+        float: right;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        padding: .5rem;
+    }
+    #article-p {
+        clear:right; 
+    }  
+    #galleryContent{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    .picture-one {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .picture-two {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .picture-three {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .picture-four {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .picture-five {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .picture-six {
+        grid-column: 2/3;
+        grid-row: 3/4;;
+    }
+    .picture-seven {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .picture-eight {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+    .picture-nine {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    #contact-info {
+       float: right;
+       text-align: left;
+       margin-right: 10%
+    }
+    #map-img {
+        clear:left;
+        margin-left:10%
+    }
+    #footer-span {
+        background-color: #006BA6;
+    }
+}
