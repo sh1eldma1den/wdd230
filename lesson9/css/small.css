@@ -84,6 +84,7 @@ nav {
     display: block;
     padding: .8rem 2%; 
 }
+.navigation .active {color: #006BA6;} 
 .navigation li{
     display:none;
 }
