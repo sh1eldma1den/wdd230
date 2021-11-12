@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Megan Moore">
+    <meta name="description" content="Your one stop for weather and events in Southeastern Idaho.">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Southeast Idaho Skies</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css"> 
+    <script defer src="js/toggle.js"></script> 
+    <script src="js/pancakes.js"></script>
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/lastModified.js"></script>
+    <script defer src="js/windChill.js"></script>
+    <script defer src="js/town-info.js"></script>
+   
+</head>
+<body>
+    <header>
+        <div class="logo-banner">
+            <picture><img class="logo-img" src="images/logo-final.png" alt="SEI skies logo"></picture>
+            <section class="nameAndMotto">
+                <h1 class="siteName">Southeast Idaho Skies</h1>
+                <h3 class="motto">Bringing the skies - and more - to you!</h3>
+            </section>
+        </div>
+    
+    
+        
+    </header>
+    <span id="pancakes-span"></span>
+        <nav class="clearfix">
+            <ul class="navigation responsive">
+                <li><a href ="#" class="hamburger">&#9776;</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div id="mainContent">
+            <h2 class="page-header">Welcome to Southest Idaho Skies!</h2>
+        <div id="first-block">    
+            <picture class="hero-img">
+                <source
+                srcset="images/home-heroimg-medium.jpg"
+                media="(min-width: 650px) and (max-width: 1199px)"
+                />
+                <source
+                srcset="images/home-heroimg-large.jpg"
+                media="(min-width: 1200px)"
+                /> 
+                <img src="images/home-heroimg-small.jpg" alt="compilation photo of different weather situations">
+            </picture>
+            <div id="events">
+                    <div id="events-one">
+                        <h2>Upcoming Events</h2>
+                        <p> - <strong>Photo contest deadline </strong><br>
+                            January 1, 2022 - 12AM<br>
+                            - <strong> Weather Reporter training</strong> <br>
+                        </p>
+                    </div>
+                    <div id="events-two">
+                        <p> - <strong>New Year, New You Fitness Group</strong><br>
+                        Every Saturday, 8 AM - beginning January 1, 2022 <br>
+                        <italic>See town pages for your local group's location details.</italic></p>
+                    </div>
+            </div>
+            <section class="cards"></section>
+        </div>
+        <footer>
+            <div id="contact-info">
+                 <h2>Contact Information</h2>
+                <p>Email icon and <a href="">email address</a> <br>
+                Phone icon and  <a href="">phone number</a></p>
+            </div>
+            <img src="images/map.jpg" id="map-img" alt="placeholder image for a map"><br><br><br><br><br>
+            &copy; <span id="copyrightyear"></span> | Megan Moore | South Carolina | <a href="https://www.byui.edu/online">BYUI Online</a> <br><br>                Last modified on <span id="lastModified"></span>. 
+            <span id="footer-span"><br><br><br></span>
+        
+        </footer>
+    </div>
+    </body>
+    </html>
