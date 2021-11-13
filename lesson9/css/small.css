@@ -113,7 +113,6 @@ nav {
     margin: 0;
  }
  .hero-img {
-     height: 150px;
      padding: 0;
      max-width: 100%;
  }
@@ -219,6 +218,34 @@ nav {
      background-color:  #006BA6;
      padding:1rem;
      text-align: center;
+ }
+ #events {
+     background-color: #70C3FF;
+     padding: 1rem;
+     border-style: solid;
+    border-color: #5C5C5C;
+    border-width: .5px;
+ }
+ .cards{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-gap:0;
+     text-align: center;
+    padding:0;
+    margin: 0;
+ }
+#town2 {
+    background-color: #70C3FF;
+    grid-column: 1/2;
+    grid-row: 2/3;
+ }
+ #town1 {
+     grid-column: 1/2;
+     grid-row: 1/2;
+ }
+#town1, #town3 {
+     background-color: #EBEBEB;
  }
  footer {
     background-color: #70C3FF;
