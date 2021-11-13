@@ -23,19 +23,21 @@ fetch(requestURL)
       let townOrder = document.createElement("p");
 
       h2.textContent = `${towns.name}`;
-      card.appendChild(h2);
       motto.textContent = `${towns.motto}`;
-      card.appendChild(motto);
       paragraph1.textContent = `Year Founded: ${towns.yearFounded}`; // Updates
-      card.appendChild(paragraph1);
       paragraph2.textContent = `Population: ${towns.currentPopulation}`; // Updates
-      card.appendChild(paragraph2);
       paragraph3.textContent = `Average Rainfall: ${towns.averageRainfall}`; // Updates
-     card.appendChild(paragraph3);
       image.setAttribute("src", `images/${towns.photo}`);
       image.setAttribute("alt", `Photo of ${towns.name}`); // Updates
+
+    card.appendChild(h2);
+    card.appendChild(motto);
+    card.appendChild(paragraph1);
+    card.appendChild(paragraph2);
+    card.appendChild(paragraph3);
     card.appendChild(image);
-      
+
+
       if (towns.name === "Preston") {
         townOrder.textContent = 1;
         card.appendChild(townOrder);
