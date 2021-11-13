@@ -37,7 +37,16 @@ fetch(requestURL)
     card.appendChild(paragraph3);
     card.appendChild(image);
 
-
+    if (towns.name === "Preston") {
+      card.setAttribute("id", "town1");
+      card.appendChild(townOrder);
+    } else if (towns.name === "Soda Springs") {
+      card.setAttribute("id", "town2");
+      card.appendChild(townOrder);
+    } else {
+      card.setAttribute("id", "town3");
+      card.appendChild(townOrder);
+    }
 
       document.querySelector("div.cards").appendChild(card);
   }
