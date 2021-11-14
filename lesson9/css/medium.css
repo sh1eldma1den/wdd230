@@ -180,7 +180,7 @@
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1f 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         grid-gap:0;
     }
     .cards img {

@@ -47,12 +47,10 @@
         grid-row: 3/4;
     }
     .cards {
-        display:reset;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-gap:1rem;
-        background-color: reset;
         background-color: white;
         padding: 1rem;
     }
@@ -95,7 +93,6 @@
     #events-header {
         grid-column: 1/2;
         grid-row: 1/2;
-        font-size: reset;
         font-size: smaller;
     }
     #events-one {
