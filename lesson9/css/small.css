@@ -113,7 +113,8 @@ nav {
     margin: 0;
  }
  .hero-img {
-     padding: 0;
+    display: flex; 
+    padding: 0;
      max-width: 100%;
  }
  .page-header {

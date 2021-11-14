@@ -29,6 +29,7 @@ fetch(requestURL)
       paragraph3.textContent = `Average Rainfall: ${towns.averageRainfall}`; // Updates
       image.setAttribute("src", `images/${towns.photo}`);
       image.setAttribute("alt", `Photo of ${towns.name}`); // Updates
+      image.setAttribute("id", 'towns.name-img');
 
     card.appendChild(h2);
     card.appendChild(motto);

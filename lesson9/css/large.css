@@ -72,7 +72,39 @@
     img {
         max-width: 80%;
     }
-
-    
+    .first-block {   
+        border-color: #5C5C5C;
+        border-width: .5px;
+        position: relative;
+    }
+    #events {
+        float: left;
+        position: absolute;
+        left: 25px;
+        top: 25px;
+        border-style: solid;
+        border-color: #5C5C5C;
+        border-width: .5px;
+        max-width: 200px;
+        max-height: 125px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+    #events-header {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        font-size: reset;
+        font-size: smaller;
+    }
+    #events-one {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        overflow: hidden;
+    }
+    #events-two {
+       display: none;
+    }
     
     } 

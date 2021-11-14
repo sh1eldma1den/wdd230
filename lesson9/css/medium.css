@@ -28,7 +28,7 @@
         width: 80vw;
         height: 200px;
     } 
-    #first-block {   
+    .first-block {   
         border-color: #5C5C5C;
         border-width: .5px;
         position: relative;
@@ -183,8 +183,8 @@
         grid-template-rows: 1fr 1f 1fr;
         grid-gap:0;
     }
-    .cards img:nth-child(odd) {
-        grid-column: 1/2;
+    .cards img {
+        grid-column: 2/3;
     }
     .cards img:nth-child(even) {
         grid-column: 2/3;
