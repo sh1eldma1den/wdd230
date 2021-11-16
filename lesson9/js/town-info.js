@@ -14,6 +14,7 @@ fetch(requestURL)
           towns.name === "Fish Haven"
         ) {
       let card = document.createElement("section");
+      let textSection = document.createElement("div");
       let h2 = document.createElement("h2");
       let motto = document.createElement("p");
       let paragraph1 = document.createElement("p"); // Updates
@@ -22,6 +23,7 @@ fetch(requestURL)
       let image = document.createElement("img"); // Updates
       let townOrder = document.createElement("p");
 
+      textSection.setAttribute("class", "text-area")
       h2.textContent = `${towns.name}`;
       motto.textContent = `${towns.motto}`;
       paragraph1.textContent = `Year Founded: ${towns.yearFounded}`; // Updates
@@ -29,13 +31,14 @@ fetch(requestURL)
       paragraph3.textContent = `Average Rainfall: ${towns.averageRainfall}`; // Updates
       image.setAttribute("src", `images/${towns.photo}`);
       image.setAttribute("alt", `Photo of ${towns.name}`); // Updates
-      image.setAttribute("id", 'towns.name-img');
+      image.setAttribute("id", '${towns.photo-img}');
 
-    card.appendChild(h2);
-    card.appendChild(motto);
-    card.appendChild(paragraph1);
-    card.appendChild(paragraph2);
-    card.appendChild(paragraph3);
+    textSection.appendChild(h2);
+    textSection.appendChild(motto);
+    textSection.appendChild(paragraph1);
+    textSection.appendChild(paragraph2);
+    textSection.appendChild(paragraph3);
+    card.appendChild(textSection);
     card.appendChild(image);
 
     if (towns.name === "Preston") {

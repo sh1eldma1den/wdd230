@@ -177,19 +177,16 @@
         grid-column: 1/2;
         grid-row: 5/6;
     }
-    .cards {
+   div.cards section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
         grid-gap:0;
-    }
-    .cards img {
-        grid-column: 2/3;
-    }
-    .cards img:nth-child(even) {
-        grid-column: 2/3;
-    }
-    #town3 {
+   }
+   div.cards section#town2 .text-area {
+       grid-column:2;
+       position: relative;
+   }
+    #town3 {    
         grid-row: 3/4;
     }
     #town2 {
