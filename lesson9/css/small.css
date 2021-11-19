@@ -200,7 +200,7 @@ nav {
  #article-img {
      max-width: 200px;
  }
- #galleryContent {
+ div #galleryContent {
      margin:0;
      align-items: center;
  }
