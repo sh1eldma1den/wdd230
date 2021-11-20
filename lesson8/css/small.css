@@ -279,7 +279,8 @@ nav {
     margin-top: 1rem;
     color: #006BA6;
     font-weight: bolder;
-    font-style:italicl
+    font-style:italic;
+    text-align: left;
   }
   div.danger label input {
     height: 2em;
