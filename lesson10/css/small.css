@@ -1,11 +1,10 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@300&display=swap');*/
 
 h1 {
-    color: white;
+    color: #006BA6;
     font-family: 'Arvo', serif;
     font-weight: 200;
-    font-size: 2rem; 
-    text-shadow: 2px 2px 2px #1f1f1f;
+    font-size: 3rem; 
 }
 h2 {
     color: #023047;
@@ -28,6 +27,11 @@ h4 {
 p {
     font-family: 'Open Sans', sans-serif;
     color: #023047;
+}
+p2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #023047;
+    font-style: italic;
 }
 header {
     padding: 0;
@@ -79,6 +83,7 @@ nav {
     display: block;
     padding: .8rem 2%; 
 }
+.navigation .active {color: #006BA6;} 
 .navigation li{
     display:none;
 }
@@ -108,8 +113,9 @@ nav {
     margin: 0;
  }
  .hero-img {
-     height: 150px;
-     padding: 0;
+    display: flex; 
+    padding: 0;
+     max-width: 100%;
  }
  .page-header {
      padding: 1rem;
@@ -194,10 +200,9 @@ nav {
  #article-img {
      max-width: 200px;
  }
- #galleryContent {
+ div #galleryContent {
      margin:0;
      align-items: center;
-     padding: 1rem;
  }
  .img-container {
      padding: .5rem;
@@ -214,6 +219,34 @@ nav {
      background-color:  #006BA6;
      padding:1rem;
      text-align: center;
+ }
+ #events {
+     background-color: #70C3FF;
+     padding: 1rem;
+     border-style: solid;
+    border-color: #5C5C5C;
+    border-width: .5px;
+ }
+ .cards{
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     grid-gap:0;
+     text-align: center;
+    padding:0;
+    margin: 0;
+ }
+#town2 {
+    background-color: #70C3FF;
+    grid-column: 1/2;
+    grid-row: 2/3;
+ }
+ #town1 {
+     grid-column: 1/2;
+     grid-row: 1/2;
+ }
+#town1, #town3 {
+     background-color: #EBEBEB;
  }
  footer {
     background-color: #70C3FF;

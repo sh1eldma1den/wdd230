@@ -107,8 +107,8 @@ nav {
 #mainContent {
     margin: 0;
  }
- .hero-img {
-     height: 150px;
+ picture .hero-img {
+     margin:0;
      padding: 0;
  }
  .page-header {
