@@ -86,6 +86,7 @@ nav {
     background-color: #70C3FF;
     color:#006BA6;
 }
+.navigation .active {color: #006BA6;} 
 .navigation a {
     display: block;
 	padding: 0.75rem;
