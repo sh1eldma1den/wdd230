@@ -291,6 +291,8 @@ nav {
   form label.bottom {
     margin-top: -0.75rem;
     margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color:#023047;
   }
   form textarea {
     background-color: rgba(0, 0, 0, 0.1);
