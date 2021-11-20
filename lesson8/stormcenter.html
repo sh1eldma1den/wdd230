@@ -46,51 +46,96 @@
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
-    <div class="stormReport">
-        <form action="" method="get" class="stormReport">
+        <div id="mainContent">
+            <h2 class="page-header">Southeast Skies Storm Center</h2>
+            <picture class="hero-img">
+                <source
+                srcset="images/storm-center-hero-medium.jpg"
+                media="(min-width: 650px) and (max-width: 1199px)"/>
+                <source
+                srcset="images/storm-center-hero-large.jpg"
+                media="(min-width: 1200px)"/>
+                <img
+                class="storm-center-banner"
+                src="images/storm-center-hero-small.jpg"
+                alt="Clouds lit by lightning"/>
+            </picture>
             <div class="stormReport">
-              <label for="name">Full name: </label>
-              <input type="text" name="name" id="name" required>
+                <form
+                    method="get"
+                    action="thanks.html"
+                     onkeydown="return event.key != 'Enter';"
+                >
+                    <fieldset>
+                        <legend>Storm Spotter Information</legend>
+                        <label class="top">Full Name <em>required</em>
+                            <input type="text" name="fullname" id="fullname" pattern="[A-Za-z .-]{5,30}"
+                            required placeholder="John Smith"/>
+                        </label>
+                        <label class="top">Phone <em>required</em>
+                            <input type="tel" name="phone" id="phone" pattern="[0-9 (.-)]{7,14}" placeholder="2085551234"
+                            required/>
+                        </label>
+                        <label class="top">Zip Code <em>required</em>
+                            <input type="number" name="zip" placeholder="55555" required />
+                        </label>
+                        <label class="top">Email
+                            <input type="email" name="email" placeholder="johnsmith@email.com"/>
+                        </label>
+                    </fieldset>
+                     <fieldset>
+                        <legend>Observations</legend>
+                        <label>Date of Storm
+                            <input type="date" name="storm-date" />
+                        </label>
+                        <label>Weather Type
+                            <input list="weather-types" placeholder="Select Type of Storm   &#9660;">
+                                <datalist id="weather-types">
+                                    <option value="Flash Flood"></option>
+                                    <option value="Ice Storm"></option>
+                                    <option value="Blizzard"></option>
+                                    <option value="Tornado"></option>
+                                    <option value="Hail"></option>
+                                    <option value="Severe Thunderstorm"></option>
+                                    <option value="High Wind"></option>
+                                    <option value="Hurricane"></option>
+                                </datalist>
+                        </label>
+                        <label class="slider-container">Storm Severity <br />
+                            <span class="drag-info">Drag to indicate storm severity. <br />
+                                <em>(1 least severe, 10 most severe)</em>
+                            </span>
+                            <input type="range" min="1" max="10" value="5" class="slider" id="slider-position"/>
+                            Severity: <span id="severity-number">5</span>
+                        </label>
+                        <label>Storm Region
+                            <select name="storm-region">
+                                <option selected disabled value="select-region">Select Region</option>
+                                <option value="preston">Preston</option>
+                                <option value="soda-springs">Soda Springs</option>
+                                <option value="fish-haven">Fish Haven</option>
+                            </select>
+                        </label>
+                        <div class="danger">
+                            <p><em>Are You In Danger?</em></p>
+                            <label> <input type="radio" name="danger" value="yes" />Yes</label>
+                            <label> <input type="radio" name="danger" value="no" />No</label>
+                            <label> <input type="radio" name="danger" value="maybe" />Maybe</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <label class="bottom"></label>Provide any additional information.
+                            <textarea name="additional-information" rows="10" cols="54"></textarea>
+                        </label>
+                        <label class="bottom">
+                            <input type="submit" value="Report My Weather Event" class="submitBtn"/>
+                        </label>
+                    </fieldset>
+                </form>
             </div>
-            <div class="stormReport">
-              <label for="email">Email: </label>
-              <input type="email" placeholder="johnsmith@email.com" name="email" id="email" required>
-            </div>
-            <div class="stormReport">
-                <label for="tel">Phone number: </label>
-                <input type="tel" id="tel" name="tel" required>
-            </div> 
-            <div class="stormReport">
-                <label for="zip">Zipcode: </label>
-                <input type="number" id="zip" name="zip" required>
-            </div>
-            <div class="stormReport">
-                <label for="date">Storm Date: </label>
-                <input type="date" id="date" name="date">
-            </div>
-            <div class="stormReport">
-                <label for="type">Storm type: </label>
-                <input type="hidden" value="" id="type"  name="type">
-                <datalist>
-                    <option value="Thunderstorm">
-                    <option value="Hurricane">
-                    <option value="Flash Flood">
-                    <option value="Hail">
-                    <option value="Blizzard">
-                    <option value="Tornado">
-                    <option value="Other">
-                </datalist>
-            </div>
-            <div class="stormReport">
-                <label for="severity">Storm Severity:</label>
-                <input type="range" id="severity" name="severity">
-            </div>
-            <div class="stormReport">
-              <input type="submit" value="Subscribe!">
-            </div>
-          </form>
-    </div>
-</body>
+        </div>
+    </body>
 <footer>
     <div id="contact-info">
         <h2>Contact Information</h2>

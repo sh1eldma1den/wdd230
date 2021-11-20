@@ -195,6 +195,19 @@
      #town1 {
          grid-row: 1/2;
      }
+     form legend {
+        font-size: 1.25rem;
+      }
+      form label,
+      form label input,
+      form label select,
+      div.danger p {
+        font-size: 1.3rem;
+      }
+      form input.submitBtn {
+        height: 5rem;
+        font-size: 1.5em;
+      }
     #contact-info {
        float: right;
        text-align: left;
