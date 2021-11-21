@@ -367,13 +367,23 @@ nav {
     max-width: 41rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   }
- footer {
+ #contact-container {
     background-color: #70C3FF;
-    padding: 1rem;
-    text-align: center;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding:1rem;
+    justify-content: center;
  }
  #map-img {
      max-width:200px;
+ }
+ footer{
+    background-color: #006BA6;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 2rem;
  }
  .clearfix:after {
      content: "";
