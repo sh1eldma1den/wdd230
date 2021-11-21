@@ -219,7 +219,8 @@ nav {
     padding: 1rem;
  }
  #article-img {
-     max-width: 200px;
+     max-width: 250px;
+     justify-content: center;
  }
  div #galleryContent {
      margin:0;
