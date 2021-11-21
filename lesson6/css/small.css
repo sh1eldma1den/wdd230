@@ -1,11 +1,10 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@300&display=swap');*/
 
 h1 {
-    color: white;
+    color: #006BA6;
     font-family: 'Arvo', serif;
     font-weight: 200;
     font-size: 2rem; 
-    text-shadow: 2px 2px 2px #1f1f1f;
 }
 h2 {
     color: #023047;
@@ -79,6 +78,7 @@ nav {
     display: block;
     padding: .8rem 2%; 
 }
+.navigation .active {color: #006BA6;} 
 .navigation li{
     display:none;
 }
@@ -107,9 +107,12 @@ nav {
 #mainContent {
     margin: 0;
  }
- picture .hero-img {
-     margin:0;
-     padding: 0;
+ .hero-img {
+     display:flex;
+      justify-content: center;
+     justify-content: flex-end;
+     max-width: fit-content;
+     padding:.5rem;
  }
  .page-header {
      padding: 1rem;
@@ -125,7 +128,6 @@ nav {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 0;
-        box-shadow: 2px 2px 2px 2px #1f1f1f;
     }
     #titleCurrently {
         grid-column: 1/2;
@@ -182,7 +184,7 @@ nav {
      text-align: center;
  }
  .small-img {
-     display: none;
+     max-width: 50px;
  }
  #article-div {
     border-style: solid;
