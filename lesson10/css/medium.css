@@ -118,16 +118,20 @@
         font-weight: bold;
         color:#023047;
       }
+    div #article-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     div #article-text-content {
         clear:right;
         max-height: fit-content;
+        grid-column: 1/2;
     }
-    div #article-div img #article-img {
-        float: right;
-        position: absolute;
-        right: 5px;
-        top: 5px;
-        padding: .5rem;
+    #article-img {
+        padding: 1rem;
+        grid-column: 2/3;
+        align-content: center;
+        max-width: fit-content;
     }
     #article-p {
         clear:right; 
