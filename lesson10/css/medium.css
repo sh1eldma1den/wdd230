@@ -21,14 +21,14 @@
 		display: none;
 	}
     #mainContent {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin:0;
+        align-items: center;
+        justify-content: center;
      }    
     .hero-img {
-        width: 80vw;
-        height: 200px;
+        width: 100%;
     } 
-    .first-block {   
+    #first-block {   
         border-color: #5C5C5C;
         border-width: .5px;
         position: relative;
@@ -36,17 +36,19 @@
     #weather-summary {
         float: left;
         position: absolute;
-        left: 25px;
-        top: 25px;
+        left: 10%;
+        top: 10%;
+        background-color: #f9f8f7ad;
         border-style: solid;
         border-color: #5C5C5C;
         border-width: .5px;
-        max-width: 200px;
-        max-height: 200px;
+        width:15%;
+        padding: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-gap: .5rem;
+        box-shadow: 2px 2px 2px 2px #1f1f1f;
     }
     #titleCurrently {
         grid-column: 1/2;
@@ -92,24 +94,16 @@
         grid-row: 5/6;
     }
     #forecast {
-        background-color: white;
         border:hidden;
         margin-bottom: 1rem;
-    }
-    #forecast-title {
-        color: #023047;
-        text-align: left;
-    }
-    #small-img-div {
-        background-color: #EBEBEB;
+        padding:1rem;
+        background-color: #70C3FF;
         display: flex;
-        margin-top: 0;
-        margin-bottom: 0;
         border-style: solid;
         border-color: #5C5C5C;
         border-width: .5px;
     }
-    .small-img{
+    #forecast figure {
         max-width:70px;
         max-height: 75px;
         display:inline-block;
@@ -120,12 +114,15 @@
         margin-right: 3rem;
         overflow: hidden;
     }
-    #article-div{
-        position:relative;
-        overflow: auto;
+    figcaption {
+        font-weight: bold;
+        color:#023047;
+      }
+    div #article-text-content {
+        clear:right;
         max-height: fit-content;
     }
-    #article-img {
+    div #article-div img #article-img {
         float: right;
         position: absolute;
         right: 5px;

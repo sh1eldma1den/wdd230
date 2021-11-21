@@ -17,6 +17,8 @@
     <script defer src="js/dates.js"></script>
     <script defer src="js/lastModified.js"></script>
     <script defer src="js/windChill.js"></script>
+    <script defer src="js/preston-forecast.js"></script>
+    <script defer src="js/preston-weather-summary.js"></script>
    
 </head>
 <body>
@@ -49,42 +51,73 @@
             <div id="first-block">    
                 <picture class="hero-img">
                     <source
-                    srcset="images/preston-hero-img-medium.jpg"
+                    srcset="images/Preston-hero-img-medium.jpg"
                     media="(min-width: 650px) and (max-width: 1199px)"
                     />
                     <source
-                    srcset="images/preston-hero-img-large.jpg"
+                    srcset="images/Preston-hero-img-large.jpg"
                     media="(min-width: 1200px)"
                     /> 
-                    <img src="images/Preston-hero-img-small" alt="photo of the sugar mill with dramatic sky">
+                    <img src="images/Preston-hero-img-small.jpg" alt="photo of the sugar mill with dramatic sky">
                 </picture>
                 <div id="weather-summary">
-                        <span id="titleCurrently">Currently:</span><span id="currently">Overcast</span>
-                        <span id="currently-img"><img src="images/overcast.jpg"  alt="current weather picture" id="overcast-img"></span>
-                        <span id="titleTemp">Temperature:</span><span id="temperature">45&#8457;</span>
-                        <span id="titleWindChill">Wind Chill:</span><span id="windChill"></span>
-                        <span id="titleHumidity">Humidity:</span><span id="humidity">95%</span>
-                        <span id="titleWindSpeed">Wind Speed:</span><span id="windSpeed">10</span>
+                        <span id="titleCurrently">Currently:</span><span id="currently"></span>
+                        <span id="titleTemp">Temperature:</span><span id="temperature">&#8457;</span>
+                        <span id="titleWindChill">Wind Chill:</span><span id="windChill">&#8457;</span>
+                        <span id="titleHumidity">Humidity:</span><span id="humidity">%</span>
+                        <span id="titleWindSpeed">Wind Speed:</span><span id="windSpeed">mph</span>
                 </div>
             </div>
+            <h4 id="forecast-title">Five Day Forecast</h4>
             <div id="forecast">
-                <h4 id="forecast-title">Five Day Forecast</h4>
-                     <div id="small-img-div">
-                        <img src="images/overcast.jpg" class="small-img" alt="a small placeholder image">
-                        <img src="images/partlyOvercast.jpg" class="small-img" alt="a small placeholder image">
-                        <img src="images/sunny.jpg" class="small-img" alt="a small placeholder image">
-                        <img src="images/sunny.jpg" class="small-img" alt="a small placeholder image">
-                        <img src="images/overcast.jpg" class="small-img" alt="a small placeholder image">
+                
+                <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day0"></span>
                     </div>
+                    <img src="#" alt="#" id="forecast-icon0" />
+                    <figcaption><span id="forecast-temp0"></span></figcaption>
+                  </figure>
+                  <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day1"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon1" />
+                    <figcaption><span id="forecast-temp1"></span></figcaption>
+                  </figure>
+                  <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day2"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon2" />
+                    <figcaption><span id="forecast-temp2"></span></figcaption>
+                  </figure>
+                  <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day3"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon3" />
+                    <figcaption><span id="forecast-temp3"></span></figcaption>
+                  </figure>
+                  <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day4"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon4" />
+                    <figcaption><span id="forecast-temp4"></span></figcaption>
+                  </figure>
+                </div>
             </div>
             <div id="article-div">
-                 <h2>Six men plead guilty, are sentenced in 2018 poaching case in Franklin County</h2>
-                <p id="article-p">Poachers in the Preston-areacase charged with various wildlife crimes, 
+                 <div id="article-text-content">
+                     <h2>Six men plead guilty, are sentenced in 2018 poaching case in Franklin County</h2>
+                    <p id="article-p">Poachers in the Preston-areacase charged with various wildlife crimes, 
                     including killing and wasting gross over-limits 
                      of elk. Jay Reeder, Brandon Porter, Rick and Jesse Earl and Dustin Hollingsworth of Preston, 
                      Idaho and Brian Miller of Pennsylvania all reached plea agreements in a Franklin County court 
                      for the illegal killing and possession of three mule deer and 16 elk, including several trophy 
                      class animals in the fall of 2018 near Preston, Idaho. </p>
+                </div>
                 <img src="images/article-img.jpg" id="article-img" alt="logo of idaho fish and game">
             </div> 
              
