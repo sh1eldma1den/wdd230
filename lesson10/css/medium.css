@@ -215,9 +215,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-evenly;
+        margin-top: 1rem;
     }
     #contact-info {
        margin-right: 10%;
        text-align: right;
+    }
+    footer {
+        font-size: smaller;
+        margin-top: 1rem;
     }
 }
