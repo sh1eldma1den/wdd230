@@ -194,16 +194,25 @@ nav {
  #article-img {
      max-width: 200px;
  }
- #galleryContent {
-     margin:0;
-     align-items: center;
-     padding: 1rem;
- }
- .img-container {
+ #galleryContent{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .5rem;
+    justify-content: center;
+}
+ figure .img-container {
      padding: .5rem;
+     max-width: 100%;
  }
- .img-container:hover {
-    box-shadow: 1px 1px 1px 1px #1f1f1f;
+ .img-container img {
+     max-width: 100%;
+ }
+ .img-container figcaption {
+    padding-inline: 1rem;
+     text-align: center;
+
  }
  #daysSince {
      font-family: Georgia, 'Times New Roman', Times, serif;
