@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Megan Moore">
+    <meta name="description" content="Your one stop for weather and events in Southeastern Idaho.">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Preston, Idaho</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css"> 
+    <script defer src="js/toggle.js"></script> 
+    <script src="js/pancakes.js"></script>
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/lastModified.js"></script>
+    <script defer src="js/preston-weather-summary.js"></script>
+    <script defer src="js/preston-forecast.js"></script>
+
+   
+</head>
+<body>
+    <header>
+        <div class="logo-banner">
+            <picture><img class="logo-img" src="images/logo-final.png" alt="SEI skies logo"></picture>
+            <section class="nameAndMotto">
+                <h1 class="siteName">Southeast Idaho Skies</h1>
+                <h3 class="motto">Bringing the skies - and more - to you!</h3>
+            </section>
+        </div>
+    
+    
+        
+    </header>
+    <span id="pancakes-span"></span>
+        <nav class="clearfix">
+            <ul class="navigation responsive">
+                <li><a href ="#" class="hamburger">&#9776;</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html" class="active">Preston</a></li>
+                <li><a href="">Soda Springs</a></li>
+                <li><a href="">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <div id="mainContent">
+                <h2 class="page-header"> Preston, Idaho</h2>
+            <div id="first-block">    
+                <picture class="hero-img">
+                    <source
+                    srcset="images/Preston-hero-img-medium.jpg"
+                    media="(min-width: 650px) and (max-width: 1199px)"
+                    />
+                    <source
+                    srcset="images/Preston-hero-img-large.jpg"
+                    media="(min-width: 1200px)"
+                    /> 
+                    <img src="images/Preston-hero-img-small.jpg" alt="photo of the sugar mill with dramatic sky">
+                </picture>
+                <div id="weather-summary">
+                        <span id="titleCurrently">Currently:</span><span id="currently"></span>
+                        <span id="titleTemp">Temperature:</span><span id="tempdiv"><span id="temperature"></span>&#8457;</span>
+                        <span id="titleWindChill">Wind Chill:</span><span id="windChilldiv"><span id="windChill">&#8457;</span></span>
+                        <span id="titleHumidity">Humidity:</span><span id="humiditydiv"><span id="humidity"></span>%</span>
+                        <span id="titleWindSpeed">Wind Speed:</span><span id="windSpeed"></span>
+                </div>
+            </div>
+            <h4 id="forecast-title">Five Day Forecast</h4>
+            <div id="forecast">
+                <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day0"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon0" />
+                    <figcaption><span id="forecast-temp0"></span></figcaption>
+                </figure>
+                <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day1"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon1" />
+                    <figcaption><span id="forecast-temp1"></span></figcaption>
+                </figure>
+                <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day2"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon2" />
+                    <figcaption><span id="forecast-temp2"></span></figcaption>
+                </figure>
+                <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day3"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon3" />
+                    <figcaption><span id="forecast-temp3"></span></figcaption>
+                </figure>
+                <figure>
+                    <div class="forecast-day">
+                      <span id="forecast-day4"></span>
+                    </div>
+                    <img src="#" alt="#" id="forecast-icon4" />
+                    <figcaption><span id="forecast-temp4"></span></figcaption>
+                </figure>
+            </div>
+            <div id="article-div">
+                 <div id="article-text-content">
+                     <h2>Six men plead guilty, are sentenced in 2018 poaching case in Franklin County</h2>
+                    <p id="article-p">Poachers in the Preston-areacase charged with various wildlife crimes, 
+                    including killing and wasting gross over-limits 
+                     of elk. Jay Reeder, Brandon Porter, Rick and Jesse Earl and Dustin Hollingsworth of Preston, 
+                     Idaho and Brian Miller of Pennsylvania all reached plea agreements in a Franklin County court 
+                     for the illegal killing and possession of three mule deer and 16 elk, including several trophy 
+                     class animals in the fall of 2018 near Preston, Idaho. </p>
+                </div>
+                <img src="images/article-img.jpg" id="article-img" alt="logo of idaho fish and game">
+            </div> 
+             
+            <div id="contact-container">
+                <div id="contact-info">
+                    <h2>Contact Information</h2>
+                   <p>Email icon and <a href="">email address</a> <br>
+                   Phone icon and  <a href="">phone number</a></p>
+               </div>
+               <img src="images/map.jpg" id="map-img" alt="placeholder image for a map">
+            </div>
+           
+        </div>
+     <footer>
+                &copy; <span id="copyrightyear"></span> | Megan Moore | South Carolina | <a href="https://www.byui.edu/online">BYUI Online</a> <br><br>                Last modified on <span id="lastModified"></span>. 
+                <br> <br>Forecast information provided by <a href="https://openweathermap.org">OpenWeatherMap.</a>
+
+
+            
+    </footer>
+</body>
+</html>
