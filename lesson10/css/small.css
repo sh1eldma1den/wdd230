@@ -130,6 +130,8 @@ nav {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 0;
+    font-family: 'Open Sans', sans-serif;
+    max-width:fit-content;
     }
 #titleCurrently {
         grid-column: 1/2;
@@ -221,16 +223,26 @@ nav {
  #article-img {
      max-width: 250px;
  }
- div #galleryContent {
-     margin:0;
-     align-items: center;
- }
- .img-container {
-     padding: .5rem;
- }
- .img-container:hover {
-    box-shadow: 1px 1px 1px 1px #1f1f1f;
- }
+ #galleryContent {
+    margin:0;
+    align-items: center;
+}
+.img-container {
+    padding: .5rem;
+}
+.img-container:hover {
+   box-shadow: 1px 1px 1px 1px #1f1f1f;
+}
+#daysSince {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 1rem;
+    color: white;
+    background-color:  #006BA6;
+    padding:1rem;
+    text-align: center;
+}
  #daysSince {
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-style: italic;
