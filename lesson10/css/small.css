@@ -152,7 +152,7 @@ nav {
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    #temperature {
+    #tempdiv {
         grid-column: 4/5;
         grid-row: 1/2;
     }
@@ -160,7 +160,7 @@ nav {
         grid-column: 3/4;
         grid-row: 2/3;
     }
-    #windChill {
+    #windChilldiv {
         grid-column: 4/5;
         grid-row: 2/3;
     }
@@ -168,7 +168,7 @@ nav {
         grid-column: 5/6;
         grid-row: 2/3;
     }
-    #humidity {
+    #humiditydiv {
         grid-column: 6/7;
         grid-row: 2/3;
     }
@@ -223,13 +223,26 @@ nav {
  #article-img {
      max-width: 250px;
  }
- #galleryContent {
-    margin:0;
-    align-items: center;
+ #galleryContent{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: .5rem;
+    justify-content: center;
 }
-.img-container {
-    padding: .5rem;
-}
+ figure .img-container {
+     padding: .5rem;
+     max-width: 100%;
+ }
+ .img-container img {
+     max-width: 100%;
+ }
+ .img-container figcaption {
+    padding-inline: 1rem;
+     text-align: center;
+
+ }
 .img-container:hover {
    box-shadow: 1px 1px 1px 1px #1f1f1f;
 }

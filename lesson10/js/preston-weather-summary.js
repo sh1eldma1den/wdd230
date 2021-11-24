@@ -11,13 +11,12 @@ fetch(apiURL)
     document.querySelector("#currently").textContent = jsObject.list[0].weather[0].description.toUpperCase();  
   
     const windspeed = Math.round(jsObject.list[0].wind.speed);
-    document.querySelector("#windSpeed").textContent = windspeed;
+    document.querySelector("#windSpeed").textContent = windspeed + " MPH";
  
 
 
     document.querySelector("#humidity").textContent = Math.round(jsObject.list[0].main.humidity);
     
-
     //Calculates the wind chill. Returns "N/A" if wind speed is < 3mph and/or temp is >50 
     if (temperature <= 50 && windspeed > 3) {
       const windchill =
