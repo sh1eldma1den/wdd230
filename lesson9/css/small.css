@@ -112,10 +112,10 @@ nav {
 #mainContent {
     margin: 0;
  }
- .hero-img {
-    display: flex; 
-    padding: 0;
-     max-width: 100%;
+ picture.hero-img {
+    display:flex;
+    justify-content: center;
+    max-width:100%;
  }
  .page-header {
      padding: 1rem;
@@ -223,9 +223,8 @@ nav {
  #events {
      background-color: #70C3FF;
      padding: 1rem;
-     border-style: solid;
-    border-color: #5C5C5C;
-    border-width: .5px;
+     max-width: 100%;
+     text-align: center;
  }
  .cards{
      display: grid;
@@ -247,6 +246,9 @@ nav {
  }
 #town1, #town3 {
      background-color: #EBEBEB;
+ }
+ .cards #fishhaven-img {
+     max-width: 100%;
  }
  footer {
     background-color: #70C3FF;
