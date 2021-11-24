@@ -1,15 +1,24 @@
 @media only screen and (min-width: 60em) {
 
+    /* navigation styling*/
     nav ul li a {
         padding: .6rem 1rem;
     }
+    /* main/body styling*/
     #mainContent {
         margin-left: 10%;
         margin-right: 10%;
     }
+    .first-block {   
+        border-color: #5C5C5C;
+        border-width: .5px;
+        position: relative;
+    }
+    /* weather summary styling*/
     #weather-summary {
         left: 10%;
     }
+    /* gallery styling*/
     #galleryContent{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -25,6 +34,7 @@
         margin-left: .5rem;
         max-width: fit-content;
     }
+    /* town cards for home page styling*/
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -45,11 +55,7 @@
         grid-column: 3/4;
         grid-row: 1/2;
     }
-    .first-block {   
-        border-color: #5C5C5C;
-        border-width: .5px;
-        position: relative;
-    }
+    /* events styling*/ 
     #events {
         float: left;
         position: absolute;
@@ -78,6 +84,7 @@
     #events-two {
        display: none;
     }
+    /* storm center styling*/
     form legend {
         font-size: 1.75rem;
       }

@@ -1,4 +1,5 @@
 @media only screen and (min-width: 32.5em) {
+    /* header styling*/
     header {
         display: block;
     }
@@ -7,6 +8,7 @@
        top: 1.5%;
        padding:1rem;
     }
+    /* navigation styling*/
     .navigation {
         display: flex;
     }
@@ -20,6 +22,7 @@
 	.navigation li:first-child {
 		display: none;
 	}
+    /* body/main styling*/
     #mainContent {
         margin:0;
         align-items: center;
@@ -33,6 +36,7 @@
         border-width: .5px;
         position: relative;
     }
+    /* weather summary styling*/
     #weather-summary {
         float: left;
         position: absolute;
@@ -95,6 +99,7 @@
         grid-column: 2/3;
         grid-row: 5/6;
     }
+    /* five-day forecast styling*/
     #forecast {
         border:hidden;
         margin-bottom: 1rem;
@@ -117,6 +122,7 @@
         font-weight: bold;
         color:#023047;
       }
+    /* article styling*/
     div #article-div {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -135,6 +141,7 @@
     #article-p {
         clear:right; 
     }  
+    /* gallery styling*/
     #galleryContent{
         margin-left: 1rem;
         margin-right: 1rem;
@@ -143,6 +150,11 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
         grid-gap: .5rem;
     }
+    #daysSince {
+        margin-top:0;
+        margin-bottom:0;
+    }
+    /* town cards for home page styling*/
    div.cards section {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -161,6 +173,7 @@
      #town1 {
          grid-row: 1/2;
      }
+     /* storm center styling*/
      form legend {
         font-size: 1.25rem;
       }
@@ -174,20 +187,22 @@
         height: 5rem;
         font-size: 1.5em;
       }
+      /* contact div styling*/
     #contact-container {
         background-color: #70C3FF;
         padding: 1rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: space-evenly;
-        margin-top: 1rem;
+        margin-top: 0;
     }
     #contact-info {
        margin-right: 10%;
        text-align: right;
     }
+    /* footer styling*/
     footer {
         font-size: smaller;
-        margin-top: 1rem;
+        margin-top: 0;
     }
 }
