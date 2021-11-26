@@ -50,7 +50,6 @@
         grid-gap: .5rem;
         box-shadow: 2px 2px 2px 2px #1f1f1f;
         max-width:fit-content;
-        line-height: -.5rem;
     }
     #titleCurrently {
         grid-column: 1/2;
