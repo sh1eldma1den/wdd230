@@ -46,14 +46,21 @@
     #town1 {
         grid-column: 1/2;
         grid-row: 1/2;
+        display: inline-block;
+        max-width: fit-content;
+    }
+    div.cards section#town1 img {
+        max-width: 100%;
     }
     #town2 {
         grid-column: 2/3;
         grid-row: 1/2;
+        display: inline-block;
     }
     #town3 {
         grid-column: 3/4;
         grid-row: 1/2;
+        display: inline-block;
     }
     /* events styling*/ 
     #events {

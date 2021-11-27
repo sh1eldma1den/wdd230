@@ -180,12 +180,43 @@
    div.cards section {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap:0;
+        grid-gap:1rem;
    }
+   div.cards section#town1 .text-area {
+    top: 6rem;
+    }
    div.cards section#town2 .text-area {
        grid-column:2;
        position: relative;
+       top: 6rem;
    }
+   div.cards section#town3 .text-area {
+    top: 6rem;
+    }
+    div.cards section#town1 img {
+        padding-left: 2rem;
+        bottom: 8rem;
+    }
+    div.cards section#town2 img {
+       grid-column: 1;
+       padding-left: 2rem;
+       position: relative;
+       bottom: 8rem;
+   }
+   div.cards section#town3 img {
+    padding-left: 2rem;
+    bottom: 8rem;
+}
+   div.home-town-cards section#town1 p em {
+    line-height: 1rem;
+  }
+  div.home-town-cards section#town2 p em {
+    line-height: 1rem;
+  }
+  div.home-town-cards section#town3 p em {
+    line-height: 1rem;
+  }
+
     #town3 {    
         grid-row: 3/4;
     }
