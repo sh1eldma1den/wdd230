@@ -29,7 +29,7 @@ fetch(requestURL)
       paragraph1.textContent = `Year Founded: ${towns.yearFounded}`; // Updates
       paragraph2.textContent = `Population: ${towns.currentPopulation}`; // Updates
       paragraph3.textContent = `Average Rainfall: ${towns.averageRainfall}`; // Updates
-      image.setAttribute("src", `images/${towns.name}`);
+      image.setAttribute("src", `images/${towns.photo}`);
       image.setAttribute("alt", `Photo of ${towns.name}`); // Updates
       image.setAttribute("id", '${towns.photo}-img');
 
