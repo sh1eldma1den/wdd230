@@ -114,7 +114,7 @@
         margin-right: 3rem;
         overflow: hidden;
     }
-    figcaption {
+    #forecast figcaption {
         font-weight: bold;
         color:#023047;
       }

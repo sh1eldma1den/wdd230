@@ -5,7 +5,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    //console.table(jsonObject);  // temporary checking for valid response and data parsing
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
     const towns = jsonObject["towns"];
     towns.forEach((towns) => {
         if (
@@ -29,7 +29,7 @@ fetch(requestURL)
       paragraph1.textContent = `Year Founded: ${towns.yearFounded}`; // Updates
       paragraph2.textContent = `Population: ${towns.currentPopulation}`; // Updates
       paragraph3.textContent = `Average Rainfall: ${towns.averageRainfall}`; // Updates
-      image.setAttribute("src", `images/${towns.photo}`);
+      image.setAttribute("src", `images/${towns.name}`);
       image.setAttribute("alt", `Photo of ${towns.name}`); // Updates
       image.setAttribute("id", '${towns.photo}-img');
 

@@ -208,6 +208,7 @@ nav {
   }
   .forecast-day {
     font-weight: bold;
+    color: #023047;
   }
   #forecast figcaption {
     font-weight: bold;
