@@ -113,6 +113,11 @@ nav {
     justify-content: center;
  }
  .page-header {
+     text-align: center;
+     padding: 1rem;
+     margin-bottom: -.5rem;
+ }
+ #index-subhead {
      padding: 1rem;
  }
  /* weather summary styling*/

@@ -103,9 +103,12 @@
     #forecast {
         border:hidden;
         margin-bottom: 1rem;
-        padding:1rem;
+        padding:2rem;
         background-color: #70C3FF;
         display: flex;
+        font-weight: bold;
+        color:#023047;
+        max-height: fit-content;
     }
     #forecast figure {
         max-width:70px;
@@ -113,19 +116,20 @@
         display:inline-block;
         text-align: justify;
         margin-top:.25rem;
-        margin-bottom: .5rem;
+        margin-bottom: .25rem;
         margin-left: 3rem;
         margin-right: 3rem;
-        overflow: hidden;
     }
-    figcaption {
+    #forecast figcaption {
         font-weight: bold;
         color:#023047;
+        margin-top: .15rem;
       }
     /* article styling*/
     div #article-div {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 1rem;
     }
     div #article-text-content {
         clear:right;
