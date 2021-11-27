@@ -252,14 +252,6 @@ nav {
     text-align: center;
     margin-top: 0;
 }
-/* events styling*/
- #events {
-     background-color: #70C3FF;
-     padding: 1rem;
-     border-style: solid;
-    border-color:  #5C5C5C;
-    border-width: .5px;
- }
  /* town cards for home page styling*/
  .cards{
      display: grid;

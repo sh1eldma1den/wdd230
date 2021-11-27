@@ -130,6 +130,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     div #article-text-content {
         clear:right;
