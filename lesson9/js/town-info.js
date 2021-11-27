@@ -5,7 +5,7 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    //console.table(jsonObject);  // temporary checking for valid response and data parsing
     const towns = jsonObject["towns"];
     towns.forEach((towns) => {
         if (
@@ -31,7 +31,7 @@ fetch(requestURL)
       paragraph3.textContent = `Average Rainfall: ${towns.averageRainfall}`; // Updates
       image.setAttribute("src", `images/${towns.photo}`);
       image.setAttribute("alt", `Photo of ${towns.name}`); // Updates
-      image.setAttribute("id", '${towns.photo}-img');
+      image.setAttribute("id", '${towns.photo-img}');
 
     textSection.appendChild(h2);
     textSection.appendChild(motto);
