@@ -97,7 +97,7 @@
     #forecast {
         border:hidden;
         margin-bottom: 1rem;
-        padding:1rem;
+        padding:2rem;
         background-color: #70C3FF;
         display: flex;
         font-weight: bold;
@@ -110,14 +110,14 @@
         display:inline-block;
         text-align: justify;
         margin-top:.25rem;
-        margin-bottom: .5rem;
+        margin-bottom: .25rem;
         margin-left: 3rem;
         margin-right: 3rem;
     }
     #forecast figcaption {
         font-weight: bold;
         color:#023047;
-        margin-top: .5rem;
+        margin-top: .15rem;
       }
     div #article-div {
         display: grid;
