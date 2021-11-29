@@ -97,10 +97,13 @@
       form label input,
       form label select,
       div.danger p {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
+      }
+      form textarea {
+        height: 6rem;
       }
       form input.submitBtn {
-        font-size: 1.8em;
+        max-width: fit-content;
       }
     
     } 

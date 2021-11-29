@@ -125,6 +125,21 @@
         color:#023047;
         margin-top: .15rem;
       }
+    /* events styling */
+    .events {
+        margin-left: 10%;
+        border:hidden;
+    }
+    .events-header {
+        text-align: center;
+    }
+    .events-container {
+        max-width: fit-content;
+        margin-left:30%;
+        border-style: solid;
+        border-color: #5C5C5C;
+        border-width: .5px;
+    }
     /* article styling*/
     div #article-div {
         display: grid;
@@ -219,6 +234,9 @@
       div.danger p {
         font-size: 1.3rem;
       }
+      form textarea {
+        height: 4.5rem;
+      }
       form input.submitBtn {
         height: 5rem;
         font-size: 1.5em;
@@ -239,7 +257,7 @@
     }
     #map-img {
     margin-right: 30%;
-    margin-top: 2rem;
+    margin-top: 4rem;
     }
     /* footer styling*/
     footer {
