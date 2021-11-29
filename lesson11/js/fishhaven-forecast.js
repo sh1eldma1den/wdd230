@@ -28,7 +28,7 @@ for (let i = 0; i < 5; i++) {
   document.getElementById(`forecast-day${[i]}`).textContent = forecastDay[i];
 }
 
-const apiForecastURL ="https://api.openweathermap.org/data/2.5/forecast?lat=42.051601&lon=-111.253532&appid=b599c9492b477e55d6b80923d6abd3ea&units=imperial";
+const apiForecastURL ="//api.openweathermap.org/data/2.5/forecast?lat=42.051601&lon=-111.253532&appid=b599c9492b477e55d6b80923d6abd3ea&units=imperial";
 fetch(apiForecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -39,7 +39,7 @@ fetch(apiForecastURL)
       document.querySelector(`#forecast-temp${[j]}`).innerHTML = `${eveForecast[
         j
       ].main.temp.toFixed(1)} &#8457`;
-      const imagesrc = `http://openweathermap.org/img/w/${eveForecast[j].weather[0].icon}.png`;
+      const imagesrc = `s//openweathermap.org/img/w/${eveForecast[j].weather[0].icon}.png`;
       const forecastDescription = eveForecast[j].weather[0].description;
       document
         .querySelector(`#forecast-icon${[j]}`)
