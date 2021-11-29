@@ -39,7 +39,7 @@ fetch(apiForecastURL)
       document.querySelector(`#forecast-temp${[j]}`).innerHTML = `${eveForecast[
         j
       ].main.temp.toFixed(1)} &#8457`;
-      const imagesrc = `s//openweathermap.org/img/w/${eveForecast[j].weather[0].icon}.png`;
+      const imagesrc = `//openweathermap.org/img/w/${eveForecast[j].weather[0].icon}.png`;
       const forecastDescription = eveForecast[j].weather[0].description;
       document
         .querySelector(`#forecast-icon${[j]}`)
