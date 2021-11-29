@@ -183,7 +183,7 @@
         grid-gap:1rem;
    }
    div.cards section#town1 .text-area {
-    top: 6rem;
+    margin-top: auto;
     }
    div.cards section#town2 .text-area {
        grid-column:2;
@@ -191,11 +191,11 @@
        top: 6rem;
    }
    div.cards section#town3 .text-area {
-    top: 6rem;
+    margin-top: auto;
     }
     div.cards section#town1 img {
-        padding-left: 2rem;
-        bottom: 8rem;
+        margin-top: auto;
+        margin-right:1rem;
     }
     div.cards section#town2 img {
        grid-column: 1;
@@ -204,17 +204,17 @@
        bottom: 8rem;
    }
    div.cards section#town3 img {
-    padding-left: 2rem;
-    bottom: 8rem;
+    margin-top: auto;
+    margin-right:1rem;
 }
    div.home-town-cards section#town1 p em {
-    line-height: 1rem;
+    line-height: .5rem;
   }
   div.home-town-cards section#town2 p em {
-    line-height: 1rem;
+    line-height: .5rem;
   }
   div.home-town-cards section#town3 p em {
-    line-height: 1rem;
+    line-height: .5rem;
   }
 
     #town3 {    
