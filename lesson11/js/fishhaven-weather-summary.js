@@ -4,7 +4,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     
-    console.log(jsObject.list[0].main.temp);
+    //console.log(jsObject.list[0].main.temp);
 
     const temperature = Math.round(jsObject.list[0].main.temp);
     document.querySelector("#temperature").textContent = temperature;

@@ -111,6 +111,7 @@ nav {
  picture.hero-img {
     display:flex;
     justify-content: center;
+    max-width: 100%;
  }
  .page-header {
      text-align: center;
@@ -211,6 +212,7 @@ nav {
     border-width: .5px;
     background-color: #EBEBEB;
     padding: 1rem;
+    max-width: 100%;
  }
  #article-img {
      max-width: 250px;
@@ -383,8 +385,15 @@ nav {
     padding:1rem;
     justify-items: center;
  }
+.social-icons {
+    justify-content: space-evenly;
+}
+.icon-img {
+    max-width: 50px;
+}
  #map-img {
      max-width:200px;
+     padding:.5em;
  }
  /* footer styling*/
  footer{
