@@ -36,12 +36,12 @@
     }
     /* town cards for home page styling*/
     .cards {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-gap:1rem;
         background-color: white;
         padding: 1rem;
+        justify-content: space-evenly;
     }
     #town1 {
         grid-column: 1/2;
@@ -52,6 +52,24 @@
     div.cards section#town1 img {
         max-width: 100%;
     }
+    div.cards section#town2 .text-area {
+        position: unset;
+    }
+    div.cards section#town2 img {
+       position:unset;
+       max-width: fit-content;
+       padding: 1em;
+    }
+    div.cards section#town1 img {
+        position:unset;
+        max-width: fit-content;
+        padding: 1em;
+     }
+     div.cards section#town3 img {
+        position:unset;
+        max-width: fit-content;
+        padding: 1em;
+     }
     #town2 {
         grid-column: 2/3;
         grid-row: 1/2;
