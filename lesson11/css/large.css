@@ -1,5 +1,12 @@
 @media only screen and (min-width: 60em) {
 
+    /* header styling*/
+    .logo-img {
+        position: absolute;
+        top: 2%;
+        left:10%;
+        padding:1rem;
+     }
     /* navigation styling*/
     nav ul li a {
         padding: .6rem 1rem;
