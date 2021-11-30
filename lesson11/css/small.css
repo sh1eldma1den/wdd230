@@ -1,19 +1,19 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@300&display=swap');*/
 
 h1 {
-    color: #006BA6;
+    color: #023047;
     font-family: 'Arvo', serif;
     font-weight: 200;
     font-size: 3rem; 
 }
 h2 {
-    color: #023047;
+    color: #006BA6;
     font-family: 'Arvo', serif;
     font-weight: 400;
-    font-size: 1.5rem; 
+    font-size: 2rem; 
 }
 h3 {
-    color:#023047;
+    color:#006BA6;
     font-family: 'Arvo', serif;
     font-weight: 200;
     font-size: .9rem; 
@@ -27,6 +27,9 @@ h4 {
 p {
     font-family: 'Open Sans', sans-serif;
     color: #023047;
+}
+p a {
+    color:white;
 }
 /* header styling*/
 header {
@@ -53,6 +56,9 @@ header {
 .motto {
     margin-top: -4rem;
     padding: 2rem;
+    color:#023047;
+    font-style:italic;
+    font-weight: bolder;
 }
 #nameAndMotto{
     padding: 1rem;
@@ -85,7 +91,7 @@ nav {
 }
 .navigation .active{
     background-color: #70C3FF;
-    color:#006BA6;
+    color:#023047;
 }
 .navigation a {
     display: block;
@@ -97,7 +103,7 @@ nav {
 	transition: 0.5s;
 }
 .navigation a:hover {
-    color: #006BA6;
+    color: #023047;
 	background-color: white;
 }
 .responsive li {
@@ -283,6 +289,7 @@ nav {
      text-align: center;
     padding:0;
     margin: 0;
+    color:#023047;
  }
 #town2 {
     background-color: #70C3FF;
@@ -404,6 +411,9 @@ nav {
     grid-template-columns: 1fr;
     padding:1rem;
     justify-items: center;
+ }
+ #contact-header {
+     color:#023047;
  }
 .social-icons {
     justify-content: space-evenly;

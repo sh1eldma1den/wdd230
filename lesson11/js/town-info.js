@@ -15,7 +15,7 @@ fetch(requestURL)
         ) {
       let card = document.createElement("section");
       let textSection = document.createElement("div");
-      let h2 = document.createElement("h2");
+      let h2 = document.createElement("h1");
       let motto = document.createElement("p");
       let paragraph1 = document.createElement("p"); // Updates
       let paragraph2 = document.createElement("p"); // Updates
