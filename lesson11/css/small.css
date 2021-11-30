@@ -29,7 +29,7 @@ p {
     color: #023047;
 }
 p a {
-    color:darkgreen;
+    color:rgb(104, 104, 58);
 }
 /* header styling*/
 header {
@@ -438,7 +438,7 @@ nav {
      color:white;
  }
  footer a {
-     color:yellowgreen;
+     color:yellow;
  }
  .clearfix:after {
      content: "";
