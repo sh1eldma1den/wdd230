@@ -411,7 +411,8 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     padding:1rem;
-    justify-items: center;
+    justify-content: center;
+    text-align: center;
  }
  #contact-header {
      color:#023047;
@@ -425,6 +426,7 @@ nav {
  #map-img {
      max-width:200px;
      padding:.5em;
+    text-align: center;
  }
  /* footer styling*/
  footer{
