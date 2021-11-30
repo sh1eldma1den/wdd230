@@ -29,7 +29,7 @@ p {
     color: #023047;
 }
 p a {
-    color:white;
+    color:darkgreen;
 }
 /* header styling*/
 header {
@@ -59,6 +59,7 @@ header {
     color:#023047;
     font-style:italic;
     font-weight: bolder;
+    font-size: larger;
 }
 #nameAndMotto{
     padding: 1rem;
@@ -428,10 +429,14 @@ nav {
  /* footer styling*/
  footer{
     background-color: #006BA6;
-    color: white;
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 2rem;
+ }
+ footer p {
+     color:white;
+ }
+ footer a {
+     color:yellowgreen;
  }
  .clearfix:after {
      content: "";
