@@ -29,7 +29,7 @@ p {
     color: #023047;
 }
 p a {
-    color:rgb(104, 104, 58);
+    color:rgb(29, 29, 17);
 }
 /* header styling*/
 header {
@@ -417,6 +417,9 @@ nav {
  #contact-header {
      color:#023047;
  }
+ .contact-info {
+    line-height: 1.5rem;
+ }
 .social-icons {
     justify-content: space-evenly;
 }
@@ -425,7 +428,7 @@ nav {
 }
  #map-img {
      max-width:200px;
-     padding:.5em;
+     padding:.5rem;
     text-align: center;
  }
  /* footer styling*/
