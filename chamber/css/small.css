@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Mulish:wght@200;300&display=swap');
+
+/* basic font styling*/
+h1 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2rem;
+    font-style: italic;
+    color:#4EA7C0;
+    font-weight: 500;
+}
+h2 {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 2rem;
+    color:#204853;
+    font-weight: 400;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: #204853;
+}
+p a {
+    color: #4EA7C0;
+}
+/* header styling*/
+header {
+    padding: 0;
+    max-width: 100%;
+}
+#logo-div img {
+    max-width: 150px;
+    justify-content: center;
+}
+.motto {
+    text-align: center;
+}
+/* navigation styling*/
+.hamburger {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border:none;
+    font-size: 1.6rem;
+    color: #EBEBEB;
+    float:right;
+}
+nav {
+    background-color: #738953;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    justify-content: center;
+}
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.navigation li:first-child {
+    display: block;
+    padding: .8rem 2%; 
+}
+.navigation li{
+    display:none;
+}
+.navigation .active{
+    background-color: #B5D07A;
+    color:#023047;
+}
+.navigation a {
+    display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.navigation a:hover {
+    color: #023047;
+	background-color: white;
+}
+.responsive li {
+	display: block;
+}
+/* home page first block styling*/
+#home-first-img {
+    display:flex;
+    justify-content: center;
+    max-width: 100%;
+}
+#weather-div {
+    border: 1px solid #6E8DA7;
+    background-color: #B5D07A;
+    font-family: 'Open Sans', sans-serif;
+    padding:1rem;
+}
+#currently-div {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+#weather-header {
+    grid-column:1/3;
+    grid-row:1/2;
+}
+#forecast-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#forecast-title {
+    grid-column: 1/4;
+    grid-row:1;
+}
+#events-div {
+    padding: 1rem;
+    background-color: #4EA7C0;
+}
+#events-div ul li {
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+}
+
+
+

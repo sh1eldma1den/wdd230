@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Megan Moore">
+    <meta name="description" content="Website for the Aiken Chamber of Commerce. Join to do something that matters today.">
+    <link rel="shortcut icon" href="images/favicon.jpg">
+    <title>Aiken Chamber of Commerce</title>
+    <!--css links-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+       <!--scripts-->
+    <script defer src="js/menu-toggle.js>"></script>
+    <script defer src="js/dates.js"></script>  
+    <script defer src="js/lastModified.js"></script>
+
+</head>
+<body>
+    <header>
+           <!--logo and motto-->
+           <div class="logo-div"><img src="images/logo.jpg" alt="logo for the Aiken Chamber of Commerce"></div>
+           <div class="motto"><h1>Today, let's do something that matters.</h1></div>
+            <!--nav bar-->
+           <nav class="clearfix">
+            <ul class="navigation responsive">
+                <li><a href ="#" class="hamburger">&#9776;</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="aiken.html">Aiken</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mainContent">
+         <!--first block of content-->
+        <div id="home-block-one">    
+            <picture id="home-first-img">
+                <img src="images/downtown-tree.jpg" alt="Christmas tree at night in downtown Aiken">
+            </picture>
+            <!--current weather section, populated by OpenWeatherMap.org API-->
+            <div id="weather-div">
+                <div id="currently-div">
+                    <span id="weather-header"><h2>Aiken's Weather</h2></span> 
+                    <span id="title-currently">Currently:</span><span id="currently"></span>
+                    <span id="title-temp">Temperature:</span><span id="tempdiv"><span id="temperature"></span>&#8457;</span>
+                    <span id="title-humidity">Humidity:</span><span id="humiditydiv"><span id="humidity"></span>%</span>
+                </div>  
+                <div id="forecast-div">
+                    <span id="forecast-title">THREE-DAY FORECAST</span>
+                    <figure>
+                        <div class="forecast-day">
+                          <span id="forecast-day0"></span>
+                        </div>
+                        <img src="#" alt="#" id="forecast-icon0" />
+                        <figcaption><span id="forecast-temp0"></span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="forecast-day">
+                          <span id="forecast-day1"></span>
+                        </div>
+                        <img src="#" alt="#" id="forecast-icon1" />
+                        <figcaption><span id="forecast-temp1"></span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="forecast-day">
+                          <span id="forecast-day2"></span>
+                        </div>
+                        <img src="#" alt="#" id="forecast-icon2" />
+                        <figcaption><span id="forecast-temp2"></span></figcaption>
+                </div> 
+            </div>
+            <!--upcoming events section-->
+            <div id="events-div">
+                <h2>Upcoming Events</h2>
+                <p>
+                    <ul id="events-ul">
+                        <li>December 22, 2021 - Last day to donate to the Aiken Christmas Aid Fund.</li>
+                        <li>December 24, 2021 - Office closed in observance of Christmas Day.</li>
+                        <li>December 31, 2021 - Office closed in observance of New Years Day.</li>
+                        <li>January 4, 2022 - New Businesses Orientation/Welcome Dinner.</li>
+                    </ul> 
+                </p>
+            </div>
+            <img src="images/augusta-regional.jpg" alt="advertisement for Augusta Regional Airport" class="first-ad">  
+            <div id="purpose-div">
+                <h2>Our Mission</h2>
+                <p>Our experienced board is dedicated to providing events,
+                    education, advertising and networking opportunities to support your business. No matter how
+                    large or small, we want to see your business thriving in Aiken!
+                </p>
+            </div> 
+        </div>  
+        <!--second block of content-->  
+        <div id="home-block-two">
+            <div id="join-div">
+                <h2>Become a member today!</h2>
+                <p>Join our supportive network of partners. We are here to grow together!</p>
+                <button type="button" onclick="join.html">Join Now!</button>
+            </div>
+            
+            <div id="contact-div">
+                <h2>Contact Us</h2>
+                <p>
+                    Aiken Chamber of Commerce<br>   
+                    121 Richland Ave. E |  Aiken, SC 29801 <br>
+                    PO Box 892  |  Aiken, SC 29802<br>
+                    Phone: (803) 641.1111 | chamber@aikenchamber.net
+                </p>
+            </div>
+            <img src="" alt="" id="">
+            <div id="home-article-div">
+                <h2>Aiken businesses welcome new growth</h2>
+                <p><em>(WRDW) By Nick Proto Published: Jan. 13, 2020 at 11:51 PM EST</em><br><br>
+                    Aiken city officials are committed to growth in the area, and local 
+                    business owners are excited for what that means for their businesses.<br><br>
+                    "I'm pumped," said Alley Kneece, owner of Alley Downtown Taproom. "I think the more the merrier." 
+                    Kneece opened the Alley Downtown Taproom in March 2017. "It was very quiet. There wasn't a lot of 
+                    traffic," she said. "There wasn't a buzz around the town about downtown Aiken." <br> <br>
+                    But a lot has changed since then, and a lot more change is on the way.<br> <br>
+                    "Having growth is very good," said Van Smith, owner of Lionel Smith Limited. "If you're standing 
+                    still, you're going backwards." Smith was born and raised in Aiken, and took over the family 
+                    business in 1992. He's also on the board for the Aiken Downtown Development Association. While 
+                    some people may not want change, he said the city needs it.<br><br>
+                    "I think that you have a healthy city with some change," he said. "You want to keep the people 
+                    you have, but you definitely want some change."<br><br>
+                    More people means more businesses coming downtown. Instead of seeing competition, Kneece sees 
+                    a partnership.<br><br>
+                    "If there was only just me downtown, then no one would come downtown," she said. "Most people 
+                    don't go to the same spot every single day. You need more."
+                </p>
+                <img src="" alt="" id="">
+            </div>
+            <img src="" alt="" id="">
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+</body>

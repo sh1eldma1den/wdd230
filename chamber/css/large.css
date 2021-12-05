@@ -1,0 +1,25 @@
+@media only screen and (min-width: 60em) {
+    header {
+        padding: 0;
+        max-width: 100%;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #logo-div img {
+        max-width: 150px;
+        position:relative;
+        float: left;
+    }
+    nav {
+        
+    }
+
+
+
+
+
+
+
+
+
+}
