@@ -1,0 +1,41 @@
+@media only screen and (min-width: 32.5em) {
+
+    /*header styling*/
+    .logo-div {
+        float:left;
+    }
+    .logo-div img {
+        max-width: 150px;
+    }
+    .logo-motto {
+        display: flex;
+    }
+    .motto {
+        margin-top:10%;
+        font-size: smaller;
+    }
+    /*navigation styling*/
+    .navigation {
+        display: flex;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    .navigation a {
+        text-align: center;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    #home-block-one {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .home-first-img {
+        max-width: 100%;
+    }
+    
+
+}
