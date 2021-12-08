@@ -84,7 +84,7 @@ nav {
 #home-first-img {
     display:flex;
     justify-content: center;
-    max-width: 100%;
+    max-width: 275px;
 }
 #weather-div {
     border: 1px solid #6E8DA7;
@@ -105,10 +105,17 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    border: 1px solid #6E8DA7;
 }
 #forecast-title {
     grid-column: 1/4;
     grid-row:1;
+    padding: 1em;
+}
+#forecast-div figure {
+    border: 1px solid #6E8DA7;
+    padding: .5em;
+    margin:0;
 }
 #events-div {
     padding: 1rem;
@@ -117,6 +124,30 @@ nav {
 #events-div ul li {
     font-family: 'Open Sans', sans-serif;
     color:black;
+}
+.first-ad-img, #second-ad-img, #third-ad-img {
+    max-width: 275px;
+    width: 100%;
+}
+#purpose-div {
+    padding: 1em;
+    background-color: #B5D07A;
+}
+#join-div {
+    padding: 1em;
+    border: 1px solid #6E8DA7;
+}
+#join-btn {
+    background-color: #B5D07A;
+    font-family: 'Open Sans', sans-serif;
+    color:#204853;
+    font-size: larger;
+    border-radius: 10px;
+    max-width: fit-content;
+}
+#contact-div {
+    background-color: #B5D07A;
+    padding: 1em;
 }
 
 

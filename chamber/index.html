@@ -17,24 +17,28 @@
     <script defer src="js/menu-toggle.js>"></script>
     <script defer src="js/dates.js"></script>  
     <script defer src="js/lastModified.js"></script>
+    <script defer src="js/currently.js"></script>
 
 </head>
 <body>
     <header>
            <!--logo and motto-->
-           <div class="logo-div"><img src="images/logo.jpg" alt="logo for the Aiken Chamber of Commerce"></div>
-           <div class="motto"><h1>Today, let's do something that matters.</h1></div>
-            <!--nav bar-->
-           <nav class="clearfix">
-            <ul class="navigation responsive">
-                <li><a href ="#" class="hamburger">&#9776;</a></li>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="aiken.html">Aiken</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
+            <div class="logo-motto">   
+                <div class="logo-div"><img src="images/logo.jpg" alt="logo for the Aiken Chamber of Commerce"></div>
+                <div class="motto"><h1>Today, let's do something that matters.</h1></div>
+            </div>   
+             <!--nav bar-->
+            <nav class="clearfix">
+                <ul class="navigation responsive">
+                    <li><a href ="#" class="hamburger">&#9776;</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="aiken.html">Aiken</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+            
     </header>
     <div class="mainContent">
          <!--first block of content-->
@@ -86,7 +90,7 @@
                     </ul> 
                 </p>
             </div>
-            <img src="images/augusta-regional.jpg" alt="advertisement for Augusta Regional Airport" class="first-ad">  
+            <img src="images/augusta-regional.jpg" alt="advertisement for Augusta Regional Airport" class="first-ad-img">  
             <div id="purpose-div">
                 <h2>Our Mission</h2>
                 <p>Our experienced board is dedicated to providing events,
@@ -94,13 +98,16 @@
                     large or small, we want to see your business thriving in Aiken!
                 </p>
             </div> 
+            <picture id="home-second-img">
+                <img src="images/south-boundary.jpg" alt="image of live oaks on South Boundary Road">
+            </picture>
         </div>  
         <!--second block of content-->  
         <div id="home-block-two">
             <div id="join-div">
                 <h2>Become a member today!</h2>
                 <p>Join our supportive network of partners. We are here to grow together!</p>
-                <button type="button" onclick="join.html">Join Now!</button>
+                <button type="button" id="join-btn" onclick="">Join Now!</button>
             </div>
             
             <div id="contact-div">
@@ -133,9 +140,9 @@
                     "If there was only just me downtown, then no one would come downtown," she said. "Most people 
                     don't go to the same spot every single day. You need more."
                 </p>
-                <img src="" alt="" id="">
+                <img src="images/grumpys.jpg" alt="advertisement for Grumpy's Sports Pub" id="second-ad-img">
             </div>
-            <img src="" alt="" id="">
+            <img src="images/steeplechase.jpg" alt="advertisement for Aiken steeplechase" id="third-ad-img">
         </div>
     </div>
     <footer>
