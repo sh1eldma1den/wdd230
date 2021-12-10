@@ -41,6 +41,73 @@
             
     </header>
     <div class="mainContent">
+        <h2>Join the Aiken Chamber of Commerce!</h2>
+        <div class="member-app">
+            <form
+                method="get"
+                action="thanks.html"
+                onkeydown="return event.key != 'Enter';">
+                <fieldset>
+                    <legend>Business Owner Information</legend>
+                    <label class="top">First Name: <em>required</em>
+                        <input type="text" name="firstname" id="firstname" pattern="[A-Za-z .-]{5,30}"
+                        required placeholder="John"/>
+                    </label>
+                    <label class="top">Last Name: <em>required</em>
+                        <input type="text" name="lastname" id="lastname" pattern="[A-Za-z .-]{5,30}"
+                        required placeholder="Smith"/>
+                    </label>
+                    <label class="top">Title:
+                        <input type="text" name="title" id="title" pattern="[A-Za-z].-]{5,30}"
+                        />
+                    </label>
+                    <label class="top">Email:
+                        <input type="email" name="email" placeholder="johnsmith@email.com" required/>
+                    </label>
+                    <label class="top">Cell:
+                        <input type="tel" name="phone" id="phone" pattern="[0-9 (.-)]{7,14}" placeholder="8035551234"
+                        />
+                    </label>
+                </fieldset>    
+                <fieldset> 
+                    <legend>Your Business</legend> 
+                    <label class="middle">Business Name: <em>required</em>
+                        <input type="text" name="businessname" id="businessname" pattern="[A-Za-z].-]{5,30}"
+                        required/>
+                    </label>
+                    <label class="middle">Business Address:
+                        <input type="text" name="businessaddress" id="businessaddress"
+                        />
+                    </label>
+                    <label class="middle">Business Website:
+                        <input type="url" name="website" id="website"
+                        /> 
+                    </label>
+                    <label class="middle">Business description:
+                        <input type="text" name="description" id="description"
+                        />
+                    </label>
+                </fieldset> 
+                <fieldset>
+                    <legend>Membership Level</legend>
+                    <div class="membership">
+                        <p>Select your membership level:</p>
+                        <label> <input type="radio" name="membership" value="nonprofit" />Non-Profit ($100)</label>
+                        <label> <input type="radio" name="membership" value="bronze" />Bronze ($200)</label>
+                        <label> <input type="radio" name="membership" value="silver" />Silver ($400)</label>
+                        <label> <input type="radio" name="membership" value="gold" />Gold ($1000)</label>
+                    </div>
+                    <label class="bottom">
+                        <input type="submit" value="Join the Chamber!" class="submitBtn"/>
+                    </label>
+                </fieldset> 
+            </form>
+            <div class="membership-level-info">
+                <h2></h2>
+            </div>
+    
+    
+    
     </div>
     <footer>
 

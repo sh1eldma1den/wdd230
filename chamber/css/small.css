@@ -80,22 +80,26 @@ nav {
 .responsive li {
 	display: block;
 }
+.mainContent {
+    margin:0;
+}
 /* home page first block styling*/
 #home-first-img {
-    display:flex;
-    justify-content: center;
     max-width: 275px;
+    overflow: hidden;
 }
 #weather-div {
     border: 1px solid #6E8DA7;
     background-color: #B5D07A;
     font-family: 'Open Sans', sans-serif;
-    padding:1rem;
+    padding:.5rem;
 }
 #currently-div {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: .5rem;
+    line-height: .5rem;
 }
 #weather-header {
     grid-column:1/3;
@@ -126,8 +130,7 @@ nav {
     color:black;
 }
 .first-ad-img, #second-ad-img, #third-ad-img {
-    max-width: 275px;
-    width: 100%;
+    max-width: 100%;
 }
 #purpose-div {
     padding: 1em;
@@ -149,6 +152,96 @@ nav {
     background-color: #B5D07A;
     padding: 1em;
 }
+#home-article-div {
+    border: 1px solid #6E8DA7;
+    background-color: #4EA7C0;
+    padding:1em;
+    margin:0;
+    justify-content: center;
 
-
+}
+#news-article-header {
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom:0;
+}
+#shop-img {
+    max-width: 100%;
+    background-color: white;
+}
+#home-article-div p {
+    background-color: white;
+    padding:1em;
+    margin-top: 0;
+}
+/* join page styling*/
+form fieldset {
+    margin: 0.5rem;
+    border: .5px solid #5C5C5C;
+    border-radius: 10px;
+    padding: 0.5rem 2%;
+    font-family: 'Lora', Georgia, serif;
+    text-align: center;
+}
+form legend {
+    color: #204853;
+    margin: 0 -0.75rem;
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    font-family: 'Lora', Georgia, serif;
+}
+form label {
+    display: block;
+    padding-top: 1rem;
+    color: #204853;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-bottom: 0.25rem;
+}
+form label input,
+form label select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #5C5C5C;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #5C5C5C;
+    width: 90%;
+    max-width: 45rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 0.25rem;
+}
+form label.top input:required {
+    border: #af3a25 solid 1px;
+}
+form label.top input:required:valid {
+    border: #5C5C5C solid 1px;
+}
+form label.bottom {
+    margin-top: -0.75rem;
+    margin-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    color:#204853;
+    text-align: left;
+}
+form textarea {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 3rem;
+    width: 100%;
+    white-space: pre-wrap;
+    border: #5C5C5C  solid .5px;
+}
+form input.submitBtn {
+    border: none;
+    background-color: #B5D07A;
+    color: #204853;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    max-width: 25rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
 

@@ -1,0 +1,126 @@
+{
+            "businesses": [
+                {
+                    "name": "Augusta Regional Airport",
+                    "photo": "",
+                    "category": "Transportation",
+                    "address": "1501 Aviation Way, Augusta GA 30906",
+                    "phone": "(706)798-3236",
+                    "website": "flyags.com",
+                    "joined": "1998",
+                    "discounts": "y"
+                },
+                {
+                    "name": "Cassie Bayer Photography",
+                    "photo": "",
+                    "category": "Photography",
+                    "address": "North Augusta, SC 29841",
+                    "phone": "(803)270-3029",
+                    "website": "cassiebayer.com",
+                    "joined": "2019",
+                    "discounts": "n"
+                },
+                {
+                    "name": "Classic Collision Aiken",
+                    "photo": "",
+                    "category": "Automotive",
+                    "address": "3980 Richland Avenue W, Aiken, SC 29801",
+                    "phone": "(803)641-8031",
+                    "website": "classiccollision.net",
+                    "joined": "2019",
+                    "discounts": "n"
+                },
+                {
+                    "name": "Design Persuasion",
+                    "photo": "",
+                    "category": "Marketing",
+                    "address": "262 Eastgate Drive, Suite 352, Aiken, SC 29803",
+                    "phone": "(803)270-4896",
+                    "website": "despstudio.com",
+                    "joined": "2014",
+                    "discounts": "y"
+                },
+                {
+                    "name": "Elliot Davis, LLC",
+                    "photo": "",
+                    "category": "Accountant",
+                    "address": "One 10th Street, Suite 400, Augusta, GA 30901",
+                    "phone": "(706)722-9090",
+                    "website": "elliotdavis.com",
+                    "joined": "1978",
+                    "discounts": "y"
+                },
+                {
+                    "name": "Holdfast Security Group, LLC",
+                    "photo": "",
+                    "category": "Consulting Services",
+                    "address": "Aiken, SC",
+                    "phone": "(803)522-2806",
+                    "website": "holdfastsecuritygroup.com",
+                    "joined": "2021",
+                    "discounts": "n"
+                },
+                {
+                    "name": "Meybohm Real Estate",
+                    "photo": "",
+                    "category": "Rentals and Property Management",
+                    "address": "142 Laurens Street, Aiken, SC 29801",
+                    "phone": "(803)644-1700",
+                    "website": "meybohm.com",
+                    "joined": "2007",
+                    "discounts": "n"
+                },
+                {
+                    "name": "Pinnacle Specialty Group, Inc.",
+                    "photo": "",
+                    "category": "Staffing Services",
+                    "address": "2160 Woodside Executive Court, Aiken, SC 29803",
+                    "phone": "(803)648-7171",
+                    "website": "psg.us.com",
+                    "joined": "1997",
+                    "discounts": "y"
+                },
+                {
+                    "name": "Southpaw Roofing",
+                    "photo": "",
+                    "category": "Roofers",
+                    "address": "1211 Summerhil Road, North Augusta, SC 29861",
+                    "phone": "(706)860-6650",
+                    "website": "southpawroofing.com",
+                    "joined": "2020",
+                    "discounts": "n"
+                },
+                {
+                    "name": "SRP Federal Credit Union",
+                    "photo": "",
+                    "category": "Credit Union",
+                    "address": "1070 Edgefield Road, North Augusta, SC 20860",
+                    "phone": "(803)278-4851",
+                    "website": "srpfcu.org",
+                    "joined": "1978",
+                    "discounts": "y"
+                },
+                {
+                    "name": "Tindall Construction, Inc.",
+                    "photo": "",
+                    "category": "Construction",
+                    "address": "2064 Park Avenue SE, Aiken, SC 29801",
+                    "phone": "(803)334-8919",
+                    "website": "tindallconstructioninc.com",
+                    "joined": "2012",
+                    "discounts": "n"
+                },
+                {
+                    "name": "Young & Thurmond,LLC",
+                    "photo": "",
+                    "category": "Attorneys",
+                    "address": "409 Park Avenue SW, Aiken, SC 29801",
+                    "phone": "(803)649-0000",
+                    "website": "youngthurmondlaw.com",
+                    "joined": "2004",
+                    "discounts": "n"
+                }
+
+            ]
+        }
+                
