@@ -1,40 +1,47 @@
 @media only screen and (min-width: 60em) {
     
-    #logo-div img {
-        max-width: 150px;
-        position:relative;
-        float: left;
-        margin-top:10%;
+    .logo-div img {
+      max-width: 250px;
+      position:relative;
+      float: left;
+      margin-top:10%;
+    }
+    .motto {
+      text-align: center;
+      margin-top: 17%;
     }
     /* navigation styling*/
     nav ul li a {
-        padding: .6rem 1rem;
+    padding: .6rem 1rem;
     }
     /* home page styling */
     #home-first-img {
         
     }
+    .mainContent {
+      margin: 10%;
+    }
     /* article-div styling */
     #shop-img {
-        float: right;
-        padding:1rem;
+    float: right;
+    padding:1rem;
     }
     /* join page styling*/
     form legend {
-        font-size: 1.75rem;
-      }
-      form label,
-      form label input,
-      form label select,
-      div.danger p {
-        font-size: 1.5rem;
-      }
-      form textarea {
-        height: 6rem;
-      }
-      form input.submitBtn {
-        max-width: fit-content;
-      }
+      font-size: 1.75rem;
+    }
+    form label,
+    form label input,
+    form label select,
+    div.danger p {
+      font-size: 1.5rem;
+    }
+    form textarea {
+      height: 6rem;
+    }
+    form input.submitBtn {
+      max-width: fit-content;
+    }
 
 
 

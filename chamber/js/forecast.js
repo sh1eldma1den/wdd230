@@ -16,20 +16,21 @@ let forecastDay = [
   forecastDay2,
 ];
 
-for (let i = 1; i < 3; i++) {
+for (let i = 0; i < 3; i++) {
   document.getElementById(`forecast-day${[i]}`).textContent = forecastDay[i];
+
 }
 
-const apiForecastURL = "//api.openweathermap.org/data/2.5/onecall?lat=33.56&lon=-81.71&exclude=minutely&appid=b599c9492b477e55d6b80923d6abd3ea&units=imperial";
+const apiForecastURL = "https://api.openweathermap.org/data/2.5/onecall?lat=33.56&lon=-81.71&exclude=minutely&appid=b599c9492b477e55d6b80923d6abd3ea&units=imperial";
 fetch(apiForecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
     
-    for (let j = 1; j < 3; j++) {
+    for (let j = 0; j < 3; j++) {
 
       document.querySelector(`#forecast-temp${[j]}`).innerHTML = `${jsObject.daily[j].temp.day.toFixed()} &#8457`;
       
-      const imagesrc = `//openweathermap.org/img/w/${jsObject.daily[j].weather[0].icon}.png`;
+      const imagesrc = `https://openweathermap.org/img/w/${jsObject.daily[j].weather[0].icon}.png`;
       const forecastDescription = jsObject.daily[j].weather.description;
       
       document.querySelector(`#forecast-icon${[j]}`).setAttribute("src", imagesrc);

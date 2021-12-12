@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="css/large.css">
        <!--scripts-->
     <script defer src="js/menu-toggle.js>"></script>
-    <script defer src="js/dates.js"></script>  
+    <script defer src="js/lazyLoad.js"></script> 
     <script defer src="js/lastModified.js"></script>
     <script defer src="js/currently.js"></script>
 
@@ -41,11 +41,82 @@
      
     </header>
     <div class="mainContent">
-
+        <h2>Meet our team!</h2>
+        <figure class="img-container" id="picture-one">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/older-man.jpg"
+              alt="photo of J. David Jameson"
+            />
+            <figcaption><strong>President/CEO</strong><br>
+            J. David Jameson</figcaption>
+        </figure>
+        <figure class="img-container" id="picture-two">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/woman.jpg"
+              alt="photo of Diane Phillips"
+            />
+            <figcaption><strong>Vice President of Administration</strong><br>
+            Diane Phillips</figcaption>
+        </figure>
+        <figure class="img-container" id="picture-one">
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/glasses-man.jpg"
+              alt="photo of Jason Rabun"
+            />
+            <figcaption><strong>Director of Membership Services</strong><br>
+            Jason Rabun</figcaption>
+        </figure>
+        <h2>Contact us</h2>
+        <div id="contact-info-div">
+            Aiken Chamber of Commerce<br>
+            121 Richland Ave. E |  Aiken, SC 29801 <br>
+            PO Box 892  |  Aiken, SC 29802<br>
+            Phone: (803) 641.1111 | chamber@aikenchamber.net<br>
+        </div>
+        <div id="map-div">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.7411554833666!2d-81.72099188438979!3d33.5601009807428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f84d097258c45d%3A0xa72a3de9ae7ab9df!2sAiken%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1639352036462!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <form>
+            <fieldset> 
+                <legend>Send us a message</legend> 
+                <label class="contact">First Name: <em>required</em>
+                    <input type="text" name="firstname" id="firstname" pattern="[A-Za-z .-]{5,30}"
+                    required placeholder="John"/>
+                </label>
+                <label class="contact">Last Name: <em>required</em>
+                    <input type="text" name="lastname" id="lastname" pattern="[A-Za-z .-]{5,30}"
+                    required placeholder="Smith"/>
+                </label>
+                <label class="contact">Email:
+                    <input type="email" name="email" placeholder="johnsmith@email.com" required/>
+                </label>
+                <label class="top">Phone:
+                    <input type="tel" name="phone" id="phone" pattern="[0-9 (.-)]{7,14}" placeholder="8035551234"
+                    />
+                </label>
+                <label class="contact">Message:
+                    <textarea name="message" rows="10" cols="54"></textarea>
+                </label>
+            </fieldset> 
+        </form>
 
     </div>
     <footer>
-
+        <!--light green bar for contrast-->
+        <span id="light-green bar"></span>
+        <!--Last modified and attributions link-->
+        <div id="footer-div">
+            Last modified on <span id="lastModified"></span>. | <a href="attributions.html">Attributions</a>
+        </div>
     </footer>
+    <div class="social-icons">
+        <a href="https://facebook.com"><img src="images/facebook.jpg" class="icon-img" alt="icon for facebook"></a>
+        <a href="https://instagram.com"><img src="images/instagram.jpg" class="icon-img" alt="icon for instagram"></a>
+        <a href="https://twitter.com"><img src="images/twitter.jpg" class="icon-img" alt="icon for twitter"></a>
+        <a href="https://youtube.com"><img src="images/linkedin.jpg" class="icon-img" alt="icon for youtube"></a>
+    </div>
 </body>
 </html>

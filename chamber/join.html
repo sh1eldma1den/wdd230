@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="css/large.css">
        <!--scripts-->
     <script defer src="js/menu-toggle.js>"></script>
-    <script defer src="js/dates.js"></script>  
     <script defer src="js/lastModified.js"></script>
     <script defer src="js/currently.js"></script>
 
@@ -41,11 +40,47 @@
             
     </header>
     <div class="mainContent">
-        <h2>Join the Aiken Chamber of Commerce!</h2>
+        <h2 id="join-header">Join the Aiken Chamber of Commerce!</h2>
+        <picture class="hero-img">
+            <source
+            srcset="images/join-medium.jpg"
+            media="(min-width: 650px) and (max-width: 1199px)"
+            />
+            <source
+            srcset="images/join-large.jpg"
+            media="(min-width: 1200px)"
+            /> 
+            <img src="images/join-small.jpg" alt="photo of members shaking hands">
+        </picture>
+        <p id="benefits-paragraph">
+            <strong>Experience the support of a community dedicated to your success.</strong><br><br>
+            Training | Education | Mentorship | Networking | Advertising | Deals
+        </p>
+        <p id="details-paragraph">
+            <strong>Training</strong><br>
+            We offer training for both you and your staff in multiple areas. Whether it's learning how
+            to put together benefit packages for your employees or safety training for your employees,
+            we are here to help you succeed.<br><br>
+            <strong>Education</strong><br>
+            Want to know the tax implications of expansion? Regulations that apply to your business or 
+            location? Safety or compliance concerns? We offer education on a number of topics. <br><br>
+            <strong>Mentorship</strong><br>
+            Starting a new venture? Our experienced members volunteer in a mentoring program aimed at helping 
+            our small, new business owners through the first year.<br><br>
+            <strong>Networking</strong><br>
+            Attend our many networking events and join in the collaboration efforts in the Aiken community. Your
+            business will thrive with the support of our vibrant and helpful network of professionals.<br><br>
+            <strong>Advertising</strong><br>
+            Advertise with us! Enjoy three times as much exposure as a Chamber member listed in our directory.
+            Customers are 80% more likely to buy from a Chamber member.<br><br>
+            <strong>Deals</strong><br>
+            Enjoy members-only discounts with our city partners. Many within our network of qualified 
+            professionals offer discounts to fellow members.<br><br>
+        </p>
         <div class="member-app">
             <form
                 method="get"
-                action="thanks.html"
+                action="joinConfirm.html"
                 onkeydown="return event.key != 'Enter';">
                 <fieldset>
                     <legend>Business Owner Information</legend>
@@ -84,8 +119,7 @@
                         /> 
                     </label>
                     <label class="middle">Business description:
-                        <input type="text" name="description" id="description"
-                        />
+                        <textarea name="additional-information" rows="10" cols="54"></textarea>
                     </label>
                 </fieldset> 
                 <fieldset>
@@ -103,14 +137,47 @@
                 </fieldset> 
             </form>
             <div class="membership-level-info">
-                <h2></h2>
+                <h2>Membership Levels</h2>
+                <p><strong>Non-Profit</strong><br>
+                    In this starter membership, enjoy the association of our partners within our 52+/year networking
+                    events. Access to discounts from trusted partners and the prestige of being listed in our 
+                    directory as a member of the Chamber.<br><br>
+                    <strong>Bronze</strong><br>
+                    Bronze members have access to our educational materials, involvement in our 52+/year
+                    networking events, access to discounts, and the prestige of being listed in our 
+                    directory as a member of the Chamber.<br><br>
+                    <strong>Silver</strong>
+                    Silver membership entails 24/7 access to our 100/hour library of training videos,
+                    advertisement on our website, access to our educational materials, involvement in our 52+/year
+                    networking events, access to discounts, and the prestige of being listed in our 
+                    directory as a member of the Chamber.<br><br> 
+                    <strong>Gold</strong><br>
+                    In this premium membership, gain access to our elite mentorship program, enjoy 
+                    top advertising space on our website and at events, 24/7 access to our 100/hour library of training videos,
+                    attendance at our 10+/year training seminars, 
+                    access to our educational materials, involvement in our 52+/year
+                    networking events, access to discounts, and the prestige of being listed in our 
+                    directory as a member of the Chamber.<br><br> 
+
+                </p>
             </div>
-    
+        </div>
     
     
     </div>
     <footer>
-
+        <!--light green bar for contrast-->
+        <span id="light-green bar"></span>
+        <!--Last modified and attributions link-->
+        <div id="footer-div">
+            Last modified on <span id="lastModified"></span>. | <a href="attributions.html">Attributions</a>
+        </div>
     </footer>
+    <div class="social-icons">
+        <a href="https://facebook.com"><img src="images/facebook.jpg" class="icon-img" alt="icon for facebook"></a>
+        <a href="https://instagram.com"><img src="images/instagram.jpg" class="icon-img" alt="icon for instagram"></a>
+        <a href="https://twitter.com"><img src="images/twitter.jpg" class="icon-img" alt="icon for twitter"></a>
+        <a href="https://youtube.com"><img src="images/linkedin.jpg" class="icon-img" alt="icon for youtube"></a>
+    </div>
 </body>
 </html>

@@ -84,22 +84,28 @@ nav {
     margin:0;
 }
 /* home page first block styling*/
-#home-first-img {
-    max-width: 275px;
-    overflow: hidden;
+#home-block-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+#home-first-img img {
+    max-width: 100%;
 }
 #weather-div {
     border: 1px solid #6E8DA7;
     background-color: #B5D07A;
     font-family: 'Open Sans', sans-serif;
     padding:.5rem;
+    text-align: center;
 }
 #currently-div {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-gap: .5rem;
-    line-height: .5rem;
 }
 #weather-header {
     grid-column:1/3;
@@ -108,13 +114,22 @@ nav {
 #forecast-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1f;
     border: 1px solid #6E8DA7;
+    background-color: white;
+    max-width: fit-content;
 }
 #forecast-title {
     grid-column: 1/4;
-    grid-row:1;
+    grid-row:1/2;
     padding: 1em;
+    font-weight: bold;
+}
+#forecast-day0, 
+#forecast-day1,
+#forecast-day2 {
+    text-align: center;
+    border-bottom: 1px solid #6E8DA7;
 }
 #forecast-div figure {
     border: 1px solid #6E8DA7;
@@ -129,12 +144,22 @@ nav {
     font-family: 'Open Sans', sans-serif;
     color:black;
 }
-.first-ad-img, #second-ad-img, #third-ad-img {
+#first-ad-img, #second-ad-img, #third-ad-img {
     max-width: 100%;
 }
 #purpose-div {
     padding: 1em;
     background-color: #B5D07A;
+}
+#home-second-img img {
+    max-width: 100%; 
+}
+/* second block styling */
+#home-block-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #join-div {
     padding: 1em;
@@ -177,6 +202,18 @@ nav {
     margin-top: 0;
 }
 /* join page styling*/
+#join-header {
+    text-align: center;
+}
+#benefits-paragraph {
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.hero-img img {
+    max-width: 100%;
+    justify-content: center;
+}
 form fieldset {
     margin: 0.5rem;
     border: .5px solid #5C5C5C;
