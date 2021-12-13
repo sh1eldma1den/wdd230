@@ -15,9 +15,9 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
        <!--scripts-->
-    <script defer src="js/menu-toggle.js>"></script>
-    <script defer src="js/dates.js"></script>  
+    <script defer src="js/menu-toggle.js>"></script> 
     <script defer src="js/lastModified.js"></script>
+    <script defer src="js/lazyLoad.js"></script>
 </head>
 <body>
     <header>
@@ -49,7 +49,7 @@
             </p>
         </div>
         <div id="living-index-div">
-            <h2>The Cost of Living Index in the Aiken-Augusta Area</h2>
+            <h2 class="section-header">The Cost of Living Index in the Aiken-Augusta Area</h2>
             <p id="living-index-intro">84.2<br>
                 16% BELOW THE NATIONAL AVERAGE
             </p>
@@ -68,21 +68,24 @@
                 An additional 1% Hospitality Tax applies to prepared food in the City of Aiken.
             </p>
         </div>
-        <h2>Aiken is close to it all!</h2> 
+        <h2 class="section-header">Aiken is close to it all!</h2> 
         <div id="location-div">
+            <img src="images/area.jpg" alt="map of Aiken and surrounding area" id="area-map-img">
             <p id="location-p">With easy access to Fort Gordon, Augusta, the Department of Energy site,
                 and Columbia employment opportunities abound. The beach and the mountains are within driving 
                 distance, and in three hours, one can be in Asheville, Charlotte, Atlanta, Charleston or Savannah.
                 Aiken’s residents have the best of both worlds—they can enjoy big city life without having to live 
                 in a large metropolitan area. <br><br>
+                
 ​                For those who enjoy history and culture, Aiken sits in the middle of the South Carolina National Heritage 
                 Corridor—one of several corridors in the United States. The corridor was designed to encourage 
                 people to get off the interstates and onto the back roads of South Carolina, where they
                 can learn about the state’s traditions and culture ​and experience various festivals and foods.
             </p>
+            
         </div>
+        <h2 class="section-header">Unbeatably close to everything!</h2>
         <div id="drive-distance">
-            <h2>Unbeatably close to everything!</h2>
             <div id="distance-p">
                 <span id="augusta-title">Aiken to Augusta, GA</span><span id="augusta-min">26 minutes</span>
                 <span id="atl-title">Aiken to Atlanta, GA</span><span id="atl-min">2 hours 29 minutes</span>
@@ -101,60 +104,123 @@
                 <span id="blu-title">Blue Ridge Parkway</span><span id="blu-min">3 hours 42 min</span>    
             </div>
         </div>
-        <div id="population-div">
-            <h2>Aiken's Demographics</h2>
-            <p id="population-p">
-                <strong>Population</strong><br>
-                City of Aiken - 31,041<br>
-                Aiken County - 171,767<br><br>
-                <strong>Other Demographics</strong><br>
-                Land Area (mi²) - 21.1 sq mi<br>
-                Density (mi²) - 1,472.70/sq mi<br>
-            </p>
-        </div>
-        <div id="weather-stats-div">
-            <div id="temp-stats-div">
-                <h2>Aiken's Weather</h2>
-                <span id="jan-title">JAN</span>
-                <span id="jul-title">JULY</span>
-                <span id="avg-hi-title">Avg. High</span><span id="jan-hi">54&#8457;</span><span id="jul-hi">92&#8457;</span>
-                <span id="avg-lo-title">Avg. Low</span><span id="jan-lo">33&#8457;</span><span id="jul-lo">71&#8457;</span>
+        <div id="stats-div">
+            <div id="pop-div">
+                <h2 class="section-header">Aiken's Demographics</h2>
+                <p id="population-p">
+                    <strong>Population</strong><br>
+                    City of Aiken - 31,041<br>
+                    Aiken County - 171,767<br><br>
+                    <strong>Other Demographics</strong><br>
+                    Land Area (mi²) - 21.1 sq mi<br>
+                    Density (mi²) - 1,472.70/sq mi<br>
+                </p>
             </div>
-            <p># OF RAINY DAYS: 78<br>
-                ANNUAL SNOWFALL: 0.5 IN.<br><br>
-                287 DAYS OF SUNSHINE!
-            </p>
+            <div id="table-div">
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="3" scope="colgroup">Aiken's Weather</th>
+                        </tr>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">January</th>
+                            <th scope="col">July</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Avg. High</td>
+                            <td>54&#8457;</td>
+                            <td>92&#8457;</td>
+                        </tr>
+                        <tr>
+                            <td>Avg. Low</td>
+                            <td>33&#8457;</td>
+                            <td>71&#8457;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"># of rainy days</td>
+                            <td>78</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">Aunnual Snowfall</td>
+                            <td>0.5 inches</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">287 DAYS OF SUNSHINE!</td>
+                        </tr>
+                    </tfoot>
+                 </table>
+            </div>
         </div>
         <div id="aiken-history-div">
-            <h2 id="history-header"></h2>
-            <p>Aiken was chartered in 1835 as the terminus of the railroad built between Hamburg, South Carolina, and Charleston,
-                South Carolina. This railroad was constructed to transport goods, mostly cotton. The railroad and cotton fields were
-                not all that grew in this small town. Aiken soon established itself as a fine equestrian community, with 
-                numerous dedicated jump and polo fields. Aiken attracted many visitors, particularly wealthy 
-                Charlestonians who spent their summers at the "place of retreat from the heat and malaria of unhealthier regions."<br><br>
-                After the conclusion of the Civil War, Aiken began to attract wealthy Northerners, who were lured to the area by 
-                the opportunities for equestrian sports, thus establishing Aiken’s celebrated “Winter Colony.” Among those who wintered 
-                here was Thomas Hitchcock, who with the Whitney’s established the tract of land known as Hitchcock Woods for public use. 
-                The restorations experienced in houses and churches reflect the wealth and sophistication of the population during the 
-                Winter Colony era and illustrate its impact on the community. Hayne Avenue, Colleton Avenue, South Boundary and Whiskey 
-                Road are old, fashionable residential avenues which attracted both local residents and winter visitors to build beautiful homes. 
-                Historic downtown Aiken continues to serve as a vibrant business hub for the community and provides a unique identity and charm 
-                for the area.<br><br>
-                Today Aiken continues to be an equestrian paradise, with its many jump fields, equestrian communities, polo fields, and stables. 
-                Powered by the constant influx of scientists and engineers drawn to the Department of Energy site, Aiken forges onward,
-                relishing the charm and heritage of the past and teeming with the anticipation of a rich cultural future.
-            </p>
-            <img src="" id="" alt="">
+            <h2 class="section-header">Aiken's Rich History</h2>
+            <div id="history-first-p">
+                <figure class="img-container" id="historic-jump"></figure>
+                    <img
+                        src="images/placeholder.jpg"
+                        data-src="images/historic-jump.jpg"
+                        alt="historic photo of two riders on horses jumping a fence"
+                        />
+                </figure>
+                <p>Aiken was chartered in 1835 as the terminus of the railroad built between Hamburg, South Carolina, and Charleston,
+                    South Carolina. This railroad was constructed to transport goods, mostly cotton. The railroad and cotton fields were
+                    not all that grew in this small town. Aiken soon established itself as a fine equestrian community, with 
+                    numerous dedicated jump and polo fields. Aiken attracted many visitors, particularly wealthy 
+                    Charlestonians who spent their summers at the "place of retreat from the heat and malaria of unhealthier regions."<br><br><br>
+                </p>
+            </div>
+            <div id="history-second-p">    
+                <figure class="img-container" id="foxhunt">
+                    <img
+                    src="images/placeholder.jpg"
+                    data-src="images/foxhunt.jpg"
+                    alt="historic photo of a foxhunt"
+                    />
+                </figure>
+                <p> After the conclusion of the Civil War, Aiken began to attract wealthy Northerners, who were lured to the area by 
+                    the opportunities for equestrian sports, thus establishing Aiken’s celebrated “Winter Colony.” Among those who wintered 
+                    here was Thomas Hitchcock, who with the Whitney’s established the tract of land known as Hitchcock Woods for public use. 
+                    The restorations experienced in houses and churches reflect the wealth and sophistication of the population during the 
+                    Winter Colony era and illustrate its impact on the community. Hayne Avenue, Colleton Avenue, South Boundary and Whiskey 
+                    Road are old, fashionable residential avenues which attracted both local residents and winter visitors to build beautiful homes. 
+                    Historic downtown Aiken continues to serve as a vibrant business hub for the community and provides a unique identity and charm 
+                    for the area.<br><br><br>
+                </p>
+            </div>
+            <div id="history-third-p">
+                <figure class="img-container" id="foxhunt">
+                    <img
+                    src="images/placeholder.jpg"
+                     data-src="images/polo.jpg"
+                    alt="exciting photo of present-day polo"
+                    />
+                </figure>
+                <p>  
+                    Today Aiken continues to be an equestrian paradise, with its many jump fields, equestrian communities, polo fields, and stables. 
+                    Powered by the constant influx of scientists and engineers drawn to the Department of Energy site, Aiken forges onward,
+                    relishing the charm and heritage of the past and teeming with the anticipation of a rich cultural future.<br><br><br>
+                    Come see what makes Aiken the South's Best Small Town. You'll be glad you did.
+                </p>
+            </div>
+                
 
         </div>
     </div>
     <footer>
-        <!--light green bar for contrast-->
-        <span id="light-green bar"></span>
         <!--Last modified and attributions link-->
         <div id="footer-div">
             Last modified on <span id="lastModified"></span>. | <a href="attributions.html">Attributions</a>
         </div>
     </footer>
+    <div class="social-icons">
+        <a href="https://facebook.com"><img src="images/facebook.jpg" class="icon-img" alt="icon for facebook"></a>
+        <a href="https://instagram.com"><img src="images/instagram.jpg" class="icon-img" alt="icon for instagram"></a>
+        <a href="https://twitter.com"><img src="images/twitter.jpg" class="icon-img" alt="icon for twitter"></a>
+        <a href="https://youtube.com"><img src="images/linkedin.jpg" class="icon-img" alt="icon for youtube"></a>
+    </div>
 </body>
 </html>

@@ -1,5 +1,9 @@
 @media only screen and (min-width: 32.5em) {
 
+    /* general styling */
+    .section-header {
+        font-size: 2rem;
+    }
     /*header styling*/
     .logo-div {
         float:left;
@@ -29,6 +33,7 @@
 	.navigation li:first-child {
 		display: none;
 	}
+    /* home page styling */
     #home-block-one {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -80,6 +85,68 @@
         grid-row:2; 
         max-width:100%;
     }
+    /* aiken page styling */
+    #location-div {
+        margin:10%;
+        margin-top: .5rem;
+    }
+    #area-map-img {
+        display: unset;
+        float:right;
+    }
+    div #drive-distance {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:1rem;
+    }
+    #distance-p {
+        grid-column: 1/2;
+    }
+    #distance-p, #beach-mtn-div {
+        border: 1px solid #6E8DA7;
+    }
+    #stats-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #pop-div {
+        grid-column: 1/2;
+        border: none;
+    }
+    #table-div {
+        grid-column: 2/3;
+        margin-top:10%;
+    }
+    #table-div table {
+        box-shadow: 10px 10px 10px #628ca6;
+    }
+    #aiken-history-div {
+        background-color: #B5D07A;
+        max-height: fit-content;
+    }
+    #history-first-p img {
+        float:right;
+        padding:1rem;
+        margin-top: .5rem;
+    }
+    #history-first-p {
+        padding: 1rem;
+    }
+    #history-second-p img {
+        float: left;
+        padding: 1rem;
+        margin-left: .25rem;
+    }
+    #history-second-p {
+        padding: 1rem;
+    }
+    #history-third-p img {
+        float:right;
+        max-height: 250px;
+    }
+    #history-third-p {
+        padding-bottom: 5rem;
+    }
     /* join page styling */
     
     .hero-img {
@@ -102,6 +169,17 @@
         height: 5rem;
         font-size: 1.5em;
       }
-
-
+    
+    /* contact us page styling */
+    #team-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #picture-one {
+        grid-column: 1/2;
+    }
+    .social-icons{
+        justify-content: start;
+    }
 }

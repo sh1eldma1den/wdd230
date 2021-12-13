@@ -26,6 +26,18 @@
     float: right;
     padding:1rem;
     }
+    /* aiken page styling*/
+    #aiken-intro-div {
+      font-size: x-large;
+      margin-top: .5rem;
+    }
+    #aiken-history-div {
+      margin-top: 2rem;
+      font-size: large;
+    }
+    #history-third-p {
+      padding-bottom: 7rem;
+    }
     /* join page styling*/
     form legend {
       font-size: 1.75rem;

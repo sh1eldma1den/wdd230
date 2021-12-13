@@ -33,6 +33,9 @@ header {
 .motto {
     text-align: center;
 }
+.mainContent {
+    margin:auto;
+}
 /* navigation styling*/
 .hamburger {
     margin: .2rem 2%;
@@ -82,6 +85,10 @@ nav {
 }
 .mainContent {
     margin:0;
+}
+.section-header {
+    margin-left:10%;
+    font-size: 1.5rem;
 }
 /* home page first block styling*/
 #home-block-one {
@@ -201,6 +208,90 @@ nav {
     padding:1em;
     margin-top: 0;
 }
+/* aiken page styling*/
+#aiken-intro-div {
+    font-style: italic;
+    font-weight: bolder;
+    padding: 1rem;
+    text-align: center;
+}
+#living-index-div {
+    background-color: #B5D07A;
+    text-align: center;
+    padding: 1rem;
+}
+#cost-button{
+    background-color: #4EA7C0;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    max-width: 25rem;
+}
+#location-div {
+    padding: 1rem;
+    border: 1px solid #6E8DA7;
+}
+#area-map-img {
+    display: none;
+}
+#distance-p {
+    background-color: #4EA7C0;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr, 8;
+}
+#beach-mtn-div {
+    background-color: #B5D07A;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr, 5 ;
+    margin-top: .5rem;
+}
+#pop-div {
+    border: 1px solid #EBC970;
+    padding: 1rem;
+    margin-top: .5rem;
+}
+#table-div table {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px auto;
+	border: thin solid #EBC970;
+    padding: 1rem;
+    color:#204853;
+    border-collapse: collapse;
+}
+tr:first-child th {
+    font-size: 1.5rem;
+    font-family: 'Lora', Georgia, serif;
+    background-color: #EBC970;
+}
+th, td, tfoot {
+	padding: 7px 15px;
+	border: 1px solid #C4C8BC;
+}
+tfoot {
+    text-align: center;
+    font-weight: bolder;
+    background-color: #EBC970;
+}
+#aiken-history-div {
+    padding:1rem;
+}
+.img-container figcaption {
+    font-family: 'Lora', Georgia, serif;
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+}
 /* join page styling*/
 #join-header {
     text-align: center;
@@ -281,4 +372,36 @@ form input.submitBtn {
     max-width: 25rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
-
+/* contact us page styling */
+#contact-info-div, #map-div {
+    background-color: #B5D07A;
+    padding:2rem;
+}
+#contact-info-div {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+}
+#map-div {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    background-color: #738953;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 2rem;
+}
+footer a {
+    color:#c9c7c7;
+    font-weight: bolder;
+}
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-icons .icon-img {
+    max-width: 40px;
+}
