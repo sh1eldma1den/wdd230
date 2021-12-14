@@ -292,6 +292,24 @@ tfoot {
     font-weight: lighter;
     font-style: italic;
 }
+/* directory page styling */
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:0;
+    text-align: center;
+    padding:.5rem;
+    margin: 0;
+    color:#204853;
+}
+.cards h2 {
+    font-size: 1.5rem;
+    font-style: bold;
+}
+.cards .text-area {
+    border-bottom: thin solid #B5D07A;
+    padding:1rem;
+}
 /* join page styling*/
 #join-header {
     text-align: center;
@@ -300,10 +318,14 @@ tfoot {
     text-align: center;
     font-weight: bolder;
     font-size: larger;
+    padding: 1rem;
 }
 .hero-img img {
     max-width: 100%;
     justify-content: center;
+}
+#details-paragraph {
+    padding: 1rem;
 }
 form fieldset {
     margin: 0.5rem;
@@ -372,8 +394,25 @@ form input.submitBtn {
     max-width: 25rem;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
+#membership-level-info p {
+    padding: 1rem;
+}
+#questions-div  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:1rem;
+    text-align: center;
+}
+#questions-div img {
+    max-width: 200px;
+}
 /* contact us page styling */
-#contact-info-div, #map-div {
+#board-div {
+    background-color: #EBC970;
+    padding:1rem;
+}
+#contact-map-div {
     background-color: #B5D07A;
     padding:2rem;
 }
@@ -381,6 +420,7 @@ form input.submitBtn {
     font-family: 'Open Sans', sans-serif;
     color: white;
     text-align: center;
+    margin-bottom: 1rem;
 }
 #map-div {
     display: flex;

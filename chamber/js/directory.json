@@ -2,7 +2,7 @@
             "businesses": [
                 {
                     "name": "Augusta Regional Airport",
-                    "photo": "",
+                    "photo": "augusta.jpg",
                     "category": "Transportation",
                     "address": "1501 Aviation Way, Augusta GA 30906",
                     "phone": "(706)798-3236",
@@ -12,7 +12,7 @@
                 },
                 {
                     "name": "Cassie Bayer Photography",
-                    "photo": "",
+                    "photo": "cassie.jpg",
                     "category": "Photography",
                     "address": "North Augusta, SC 29841",
                     "phone": "(803)270-3029",
@@ -22,7 +22,7 @@
                 },
                 {
                     "name": "Classic Collision Aiken",
-                    "photo": "",
+                    "photo": "classic.jpg",
                     "category": "Automotive",
                     "address": "3980 Richland Avenue W, Aiken, SC 29801",
                     "phone": "(803)641-8031",
@@ -42,7 +42,7 @@
                 },
                 {
                     "name": "Elliot Davis, LLC",
-                    "photo": "",
+                    "photo": "elliot.jpg",
                     "category": "Accountant",
                     "address": "One 10th Street, Suite 400, Augusta, GA 30901",
                     "phone": "(706)722-9090",
@@ -52,7 +52,7 @@
                 },
                 {
                     "name": "Holdfast Security Group, LLC",
-                    "photo": "",
+                    "photo": "holdfast.jpg",
                     "category": "Consulting Services",
                     "address": "Aiken, SC",
                     "phone": "(803)522-2806",
@@ -62,7 +62,7 @@
                 },
                 {
                     "name": "Meybohm Real Estate",
-                    "photo": "",
+                    "photo": "meybohm.jpg",
                     "category": "Rentals and Property Management",
                     "address": "142 Laurens Street, Aiken, SC 29801",
                     "phone": "(803)644-1700",
@@ -72,7 +72,7 @@
                 },
                 {
                     "name": "Pinnacle Specialty Group, Inc.",
-                    "photo": "",
+                    "photo": "pinnacle.jpg",
                     "category": "Staffing Services",
                     "address": "2160 Woodside Executive Court, Aiken, SC 29803",
                     "phone": "(803)648-7171",
@@ -82,7 +82,7 @@
                 },
                 {
                     "name": "Southpaw Roofing",
-                    "photo": "",
+                    "photo": "southpaw.jpg",
                     "category": "Roofers",
                     "address": "1211 Summerhil Road, North Augusta, SC 29861",
                     "phone": "(706)860-6650",
@@ -92,7 +92,7 @@
                 },
                 {
                     "name": "SRP Federal Credit Union",
-                    "photo": "",
+                    "photo": "srp.jpg",
                     "category": "Credit Union",
                     "address": "1070 Edgefield Road, North Augusta, SC 20860",
                     "phone": "(803)278-4851",
@@ -102,7 +102,7 @@
                 },
                 {
                     "name": "Tindall Construction, Inc.",
-                    "photo": "",
+                    "photo": "tindall.jpg",
                     "category": "Construction",
                     "address": "2064 Park Avenue SE, Aiken, SC 29801",
                     "phone": "(803)334-8919",

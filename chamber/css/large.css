@@ -38,6 +38,10 @@
     #history-third-p {
       padding-bottom: 7rem;
     }
+    /* directory page styling */
+    .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     /* join page styling*/
     form legend {
       font-size: 1.75rem;
@@ -54,6 +58,25 @@
     form input.submitBtn {
       max-width: fit-content;
     }
+    /* contact us page styling */
+    #team-div {
+      display: unset;
+      display: flex;
+    }
+    #contact-map-div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    #contact-info-div {
+      grid-column: 1/2;
+      text-align: right;
+      margin-top: 10%;
+    }
+    /*footer styling*/
+    footer {
+      padding:6rem;
+    }
+  }
 
 
 

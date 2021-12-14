@@ -147,11 +147,18 @@
     #history-third-p {
         padding-bottom: 5rem;
     }
+    /* directory page styling */
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     /* join page styling */
     
     .hero-img {
         max-width: 100%;
         margin: 10%;
+    }
+    #details-paragraph {
+        column-count: 2;
     }
     form legend {
         font-size: 1.25rem;
@@ -170,6 +177,18 @@
         font-size: 1.5em;
       }
     
+    #level-description{
+        column-count: 2;
+    }
+    #questions-div {
+        box-shadow: 10px 10px 10px #628ca6;
+        border: 1px solid #6E8DA7;
+        max-width: fit-content;
+        margin:10% 20% 10%;
+    }
+    #questions-div img {
+        margin-left: 10%;
+    }
     /* contact us page styling */
     #team-div {
         display: grid;
@@ -178,6 +197,15 @@
     }
     #picture-one {
         grid-column: 1/2;
+    }
+    #board-div{
+        padding: 1rem;
+    }
+    #board-div p {
+        column-count: 2;
+    }
+    footer {
+        padding: 4rem;
     }
     .social-icons{
         justify-content: start;
