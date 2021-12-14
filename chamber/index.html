@@ -83,7 +83,7 @@
             </div>
             <!--upcoming events section-->
             <div id="events-div">
-                <h2>Upcoming Events</h2>
+                <h2 class="section-header">Upcoming Events</h2>
                 <p>
                     <ul id="events-ul">
                         <li>December 22, 2021 - Last day to donate to the Aiken Christmas Aid Fund.</li>
@@ -93,7 +93,9 @@
                     </ul> 
                 </p>
             </div>
-            <img src="images/augusta-regional.jpg" alt="advertisement for Augusta Regional Airport" class="first-ad-img">  
+            <picture id="first-ad-img">
+                <img src="images/augusta-regional.jpg" alt="advertisement for Augusta Regional Airport">
+            </picture>     
             <div id="purpose-div">
                 <h2>Our Mission</h2>
                 <p>Our experienced board is dedicated to providing events,
@@ -102,10 +104,10 @@
                 </p>
             </div> 
             <picture id="home-second-img">
-                <img src="images/south-boundary.jpg" alt="image of live oaks on South Boundary Road">
+                <img src="images/trees.jpg" alt="image of live oaks on South Boundary Road">
             </picture>
             <div id="join-div">
-                <h2>Become a member today!</h2>
+                <h2 class="section-header">Become a member today!</h2>
                 <p>Join our supportive network of partners. We are here to grow together!</p>
                 <button type="button" id="join-btn" onclick="">Join Now!</button>
             </div>
@@ -119,7 +121,9 @@
                     Phone: (803) 641.1111 | chamber@aikenchamber.net
                 </p>
             </div>
-            <img src="images/fountain.jpg" alt="image of the fountain and SRNS museum" id="home-third-img">
+            <picture id="home-third-img">    
+                <img src="images/fountain.jpg" alt="image of the fountain and SRNS museum">
+            </picture>
         </div>
         <div id="home-second-block">   
             <div id="home-article-div">
@@ -150,7 +154,16 @@
         </div>
     </div>
     <footer>
-
+        <!--Last modified and attributions link-->
+        <div id="footer-div">
+            Last modified on <span id="lastModified"></span>. | <a href="attributions.html">Attributions</a>
+        </div>
     </footer>
+    <div class="social-icons">
+        <a href="https://facebook.com"><img src="images/facebook.jpg" class="icon-img" alt="icon for facebook"></a>
+        <a href="https://instagram.com"><img src="images/instagram.jpg" class="icon-img" alt="icon for instagram"></a>
+        <a href="https://twitter.com"><img src="images/twitter.jpg" class="icon-img" alt="icon for twitter"></a>
+        <a href="https://youtube.com"><img src="images/linkedin.jpg" class="icon-img" alt="icon for youtube"></a>
+    </div>
 </body>
 </html>

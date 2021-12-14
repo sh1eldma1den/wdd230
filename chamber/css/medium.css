@@ -2,7 +2,7 @@
 
     /* general styling */
     .section-header {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     /*header styling*/
     .logo-div {
@@ -36,14 +36,16 @@
     /* home page styling */
     #home-block-one {
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap:.5rem;
+        grid-template-columns: 350px 150px;
+        grid-template-rows: 260px 260px 1fr 1fr 1fr;
+        grid-gap:0;
+        background-color: #B5D07A;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     #home-first-img img {
         grid-column: 1/3;
         grid-row:1/2;
-        max-width: 800px;
     }
     #weather-div {
         grid-column: 2/5;
@@ -52,6 +54,7 @@
         grid-gap: .5rem;
         align-items: baseline;
         justify-items: center;
+        border:none;
     }
     #weather-header {
         font-weight: bolder;
@@ -63,6 +66,8 @@
     }
     #forecast-div {
         margin-top: 10%;
+        box-shadow: 5px 5px 5px #628ca6;
+        margin-bottom: 10%;
     }
     #forecast-title {
         margin-top:10%
@@ -71,19 +76,47 @@
         grid-column: 1/2;
         grid-row: 2;
     }
-    .first-ad-img {
-        grid-column: 1/2;
+    #first-ad-img {
+        grid-column: 2/5;
         grid-row:3;
+        background-color: white;
+        padding:3.9em;
     }
-    
     #purpose-div {
         grid-column: 2/5;
-        grid-row:3;
+        grid-row:4;
     }
-    #home-second-img img {
+    #home-second-img {
+        display: flex;
+        flex-direction: column;
         grid-column: 2/5;
         grid-row:2; 
-        max-width:100%;
+    }
+    #join-div {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        border: none;
+        background-color: white;
+        padding:2rem;
+    }
+    #contact-div {
+        grid-column:1/5;
+        grid-row: 5;
+        text-align: center;
+    }
+    #home-third-img {
+        grid-column: 1/2;
+        grid-row:4/5;
+    }
+    /* second block */
+    #shop-img {
+        background-color: none;
+        float:right;
+        margin-top:10%;
+    }
+    #second-ad-img, #third-ad-img {
+        display: block;
+        margin:auto;
     }
     /* aiken page styling */
     #location-div {
@@ -150,7 +183,7 @@
     /* directory page styling */
     .cards{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
         grid-gap: 1rem;
     }
@@ -163,25 +196,26 @@
     #details-paragraph {
         column-count: 2;
     }
+    
     form legend {
         font-size: 1.25rem;
-      }
-      form label,
-      form label input,
-      form label select,
-      div.danger p {
+    }
+    form label,
+    form label input,
+    form label select,
+    div.danger p {
         font-size: 1.3rem;
-      }
-      form textarea {
+    }
+    form textarea {
         height: 4.5rem;
-      }
-      form input.submitBtn {
+    }
+    form input.submitBtn {
         height: 5rem;
         font-size: 1.5em;
-      }
-    
-    #level-description{
+    }
+    #level-description {
         column-count: 2;
+        padding: 1rem;
     }
     #questions-div {
         box-shadow: 10px 10px 10px #628ca6;
@@ -203,6 +237,7 @@
     }
     #board-div{
         padding: 1rem;
+        text-align: center;
     }
     #board-div p {
         column-count: 2;

@@ -121,7 +121,7 @@ nav {
 #forecast-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
     border: 1px solid #6E8DA7;
     background-color: white;
     max-width: fit-content;
@@ -129,7 +129,6 @@ nav {
 #forecast-title {
     grid-column: 1/4;
     grid-row:1/2;
-    padding: 1em;
     font-weight: bold;
 }
 #forecast-day0, 
@@ -200,8 +199,9 @@ nav {
     margin-bottom:0;
 }
 #shop-img {
+    display: block;
+    margin:auto;
     max-width: 100%;
-    background-color: white;
 }
 #home-article-div p {
     background-color: white;
@@ -293,7 +293,7 @@ tfoot {
     font-style: italic;
 }
 /* directory page styling */
-.cards{
+.cards {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(12, 1fr);
@@ -303,14 +303,13 @@ tfoot {
     margin: 0;
     color:#204853;
     margin-top: 2rem;
-    background-color: #4EA7C0;
 }
 .cards h2 {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.cards .text-area {
-    border-bottom: thin solid #B5D07A;
+.cards section {
+    border: thin solid #B5D07A;
     padding:1rem;
 }
 /* join page styling*/
