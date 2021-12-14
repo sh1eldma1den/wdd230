@@ -151,7 +151,7 @@
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr, 6;
+        grid-template-rows: repeat(6, 1fr);
         grid-gap: 1rem;
     }
     /* join page styling */
@@ -208,7 +208,7 @@
         column-count: 2;
     }
     footer {
-        padding: 4 rem;
+        padding: 4rem;
     }
     .social-icons{
         justify-content: unset;
