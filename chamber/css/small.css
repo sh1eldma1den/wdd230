@@ -121,7 +121,7 @@ nav {
 #forecast-div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1f;
+    grid-template-rows: 1fr 1fr 1fr;
     border: 1px solid #6E8DA7;
     background-color: white;
     max-width: fit-content;
@@ -244,7 +244,7 @@ nav {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr, 8;
+    grid-template-rows: 1fr 8;
 }
 #beach-mtn-div {
     background-color: #B5D07A;
@@ -253,7 +253,7 @@ nav {
     padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr, 5 ;
+    grid-template-rows: 1fr 5 ;
     margin-top: .5rem;
 }
 #pop-div {
@@ -296,17 +296,18 @@ tfoot {
 .cards{
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 12;
     grid-gap:0;
     text-align: center;
     padding:.5rem;
     margin: 0;
     color:#204853;
-    max-height: 350px;
-    margin-top: 1rem;
+    margin-top: 2rem;
+    background-color: #4EA7C0;
 }
 .cards h2 {
     font-size: 1.5rem;
-    font-style: bold;
+    font-weight: bold;
 }
 .cards .text-area {
     border-bottom: thin solid #B5D07A;

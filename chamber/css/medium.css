@@ -151,6 +151,9 @@
     .cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr, 6;
+        grid-gap: 1rem;
+    }
     /* join page styling */
     
     .hero-img {
@@ -205,9 +208,10 @@
         column-count: 2;
     }
     footer {
-        padding: 4rem;
+        padding: 4 rem;
     }
     .social-icons{
+        justify-content: unset;
         justify-content: start;
     }
 }
