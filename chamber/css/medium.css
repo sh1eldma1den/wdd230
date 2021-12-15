@@ -121,14 +121,12 @@
     /* second block */
     #home-article-div {
         background-color: unset;
-        background-color: none;
         border: none;
     }
     #news-article-header {
         border-top: 1px solid #738953;
     }
     #shop-img {
-        background-color: none;
         float:right;
         margin-top:10%;
     }
@@ -202,7 +200,7 @@
         padding-bottom: 5rem;
     }
     /* directory page styling */
-    #cards .grid {
+    #cards .grids {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);

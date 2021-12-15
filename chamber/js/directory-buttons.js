@@ -16,21 +16,22 @@
 //  cards.classList.remove("list");
 //});
 
-toggle = document.getElementById('cards');
-
-document.getElementById("grid").addEventListener("click", myToggle());
+const target = document.getElementById("cards");
+btn = document.getElementById("grid").addEventListener("click", myToggle());
 document.getElementById("list").addEventListener("click", myToggle());
 
 function myToggle(){
 
-  console.log(toggle.classList);
+//  console.log(toggle.classList);
 
-  if (toggle.classList.contains("grid")){
-    toggle.classList.remove("grid");
-    toggle.classList.add("list");
+  if (target.style.display !== "grid"){
+    //alert("grid found");
+    target.style.display = "grid";
+  
   }
-  else{
-    toggle.classList.remove("list");
-    toggle.classList.add("grid");
+  else {
+    //alert("else");
+    target.style.display = "list";
+  
   }
 };
