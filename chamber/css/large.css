@@ -19,6 +19,7 @@
     padding: .6rem 1rem;
     }
     /* home page styling */
+    
     #home-first-block {
       display:grid;
       grid-template-columns: repeat(4,1fr);
@@ -27,15 +28,16 @@
       background-color: unset;
       background-color: white;
     }
-    #home-first-img {
-      grid-column: 1/4;
-      grid-row:1;
-    }
     #weather-div {
       grid-column: 3/5;
       grid-row: 1;
     }
-    
+    #home-second-img {
+      margin-left:20%;
+    }
+    #purpose-div {
+      margin-left:20%;
+    }
 
     /* article-div styling */
     #shop-img {

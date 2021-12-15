@@ -13,14 +13,12 @@
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
        <!--scripts-->
-    <script defer src="js/menu-toggle.js"></script>
-    <script defer src="js/dates.js"></script>  
+    <script defer src="js/menu-toggle.js"></script> 
     <script defer src="js/lastModified.js"></script>
-    <script defer src="js/currently.js"></script>
     <script defer src="js/directory.js"></script>
-    <script defer srt="js/directory-buttons.js"></script>
+    <script defer src="js/directory-buttons.js"></script>
+    <script defer src="js/directory-toggle.js"></script>
 
 </head>
 <body>    
@@ -46,8 +44,8 @@
     <div class="mainContent">
         <h2 class="section-header">Greater Aiken Chamber of Commerce Business Directory</h2>
         <div class="directory-buttons">
-            <div class="list"><img src="images/list.jpg"></div>
-            <div class="grid"><img src="images/grid.jpg"></i></div>
+            <div class="list" id="list"><img src="images/list.jpg"></div>
+            <div class="grid" id="grid"><img src="images/grid.jpg"></i></div>
         </div>
         <!-- This to be populated with javascript. -->
         <div class="cards" id="cards"></div>

@@ -14,12 +14,10 @@
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
        <!--scripts-->
-    <script defer src="js/menu-toggle.js"></script>
-    <script defer src="js/dates.js"></script>  
+    <script defer src="js/menu-toggle.js"></script> 
     <script defer src="js/lastModified.js"></script>
     <script defer src="js/currently.js"></script>
     <script defer src="js/forecast.js"></script>
-    <script defer src="js/directory.js"></script>
 
 </head>
 <body>
@@ -54,61 +52,57 @@
             <picture id="first-ad-img">
                 <img src="images/augusta-regional.jpg" alt="advertisement for Augusta Regional Airport">
             </picture>
-            
-        </div>
-        <!--first block of content-->
-        <div id="home-block-one">    
             <picture id="home-first-img">
                 <img src="images/xmastree.jpg.jpg" alt="Christmas tree at night in downtown Aiken">
             </picture>
+        </div>
+        <!--first block of content-->
+        <div id="home-block-one">    
             <!--upcoming events section-->
-            <div id="events-and-weather-bar">
-                <div id="events-div">
-                    <h2 class="section-header">Upcoming Events</h2>
-                    <p>
-                        <ul id="events-ul">
-                            <li>December 22, 2021 - Last day to donate to the Aiken Christmas Aid Fund.</li>
-                            <li>December 24, 2021 - Office closed in observance of Christmas Day.</li>
-                            <li>December 31, 2021 - Office closed in observance of New Years Day.</li>
-                            <li>January 4, 2022 - New Businesses Orientation/Welcome Dinner.</li>
-                        </ul> 
-                    </p>
-                </div>    
-                <!--current weather section, populated by OpenWeatherMap.org API-->
-                <div id="weather-div">
-                    <div id="currently-div">
-                        <span id="weather-header">Aiken's Weather</span> 
-                        <span id="title-currently">Currently:</span><span id="currently"></span>
-                        <span id="title-temp">Temperature:</span><span id="tempdiv"><span id="temperature"></span>&#8457;</span>
-                        <span id="title-humidity">Humidity:</span><span id="humiditydiv"><span id="humidity"></span>%</span>
-                    </div>  
-                    <div id="forecast-div">
-                        <span id="forecast-title">THREE-DAY FORECAST</span>
-                        <figure>
-                            <div class="forecast-day">
-                                <span id="forecast-day0"></span>
-                            </div>
-                            <img src="#" alt="#" id="forecast-icon0" />
-                            <figcaption><span id="forecast-temp0"></span></figcaption>
-                        </figure>
-                        <figure>
-                            <div class="forecast-day">
-                                <span id="forecast-day1"></span>
-                            </div>
-                            <img src="#" alt="#" id="forecast-icon1" />
-                            <figcaption><span id="forecast-temp1"></span></figcaption>
-                        </figure>
-                        <figure>
-                            <div class="forecast-day">
-                                <span id="forecast-day2"></span>
-                            </div>
-                            <img src="#" alt="#" id="forecast-icon2" />
-                            <figcaption><span id="forecast-temp2"></span></figcaption>
-                        </figure>
-                    </div> 
-                </div>
+            <div id="events-div">
+                <h2 class="section-header">Upcoming Events</h2>
+                <p>
+                    <ul id="events-ul">
+                        <li>December 22, 2021 - Last day to donate to the Aiken Christmas Aid Fund.</li>
+                        <li>December 24, 2021 - Office closed in observance of Christmas Day.</li>
+                        <li>December 31, 2021 - Office closed in observance of New Years Day.</li>
+                        <li>January 4, 2022 - New Businesses Orientation/Welcome Dinner.</li>
+                    </ul> 
+                </p> 
+            </div>       
+            <!--current weather section, populated by OpenWeatherMap.org API-->
+            <div id="weather-div">
+                <div id="currently-div">
+                    <span id="weather-header">Aiken's Weather</span> 
+                    <span id="title-currently">Currently:</span><span id="currently"></span>
+                    <span id="title-temp">Temperature:</span><span id="tempdiv"><span id="temperature"></span>&#8457;</span>
+                    <span id="title-humidity">Humidity:</span><span id="humiditydiv"><span id="humidity"></span>%</span>
+                </div>  
+                <div id="forecast-div">
+                    <span id="forecast-title">THREE-DAY FORECAST</span>
+                    <figure>
+                        <div class="forecast-day">
+                            <span id="forecast-day0"></span>
+                        </div>
+                        <img src="#" alt="#" id="forecast-icon0" />
+                        <figcaption><span id="forecast-temp0"></span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="forecast-day">
+                            <span id="forecast-day1"></span>
+                        </div>
+                        <img src="#" alt="#" id="forecast-icon1" />
+                        <figcaption><span id="forecast-temp1"></span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="forecast-day">
+                            <span id="forecast-day2"></span>
+                        </div>
+                        <img src="#" alt="#" id="forecast-icon2" />
+                        <figcaption><span id="forecast-temp2"></span></figcaption>
+                    </figure>
+                </div>     
             </div>
-            
             <div id="purpose-div">
                 <h2>Our Mission</h2>
                 <p>Our experienced board is dedicated to providing events,

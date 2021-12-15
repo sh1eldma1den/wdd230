@@ -325,20 +325,22 @@ tfoot {
 }
 .directory-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     padding:1rem;
 }    
 .directory-buttons div {
-      margin: 0px 10px;
-      color: #FFFFFA;
-      cursor: pointer;
+    margin: 0px 10px;
+    color: #FFFFFA;
+    cursor: pointer;
 }
 .directory-buttons div > * {
     pointer-events: none;
     max-height: 25px;
 }
-
+.directory-buttons .responsive {
+    display: block;
+}
 .cards h2 {
     font-size: 1.5rem;
     font-weight: bold;
@@ -468,6 +470,23 @@ form input.submitBtn {
     display: flex;
     justify-content: center;
 }
+/*joinConfirm page styling */
+#join-confirm-p {
+    padding: 1rem;
+}
+/*thanksContact page styling*/
+#contact-confirm-p {
+    padding: 1rem;
+}
+/*attributions page styling */
+#attributions {
+    padding: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+#attributions a {
+    color:#738953;
+}
+/* footer styling */
 footer {
     background-color: #738953;
     font-family: 'Open Sans', sans-serif;
