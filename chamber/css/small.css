@@ -38,7 +38,7 @@ header {
 }
 /* navigation styling*/
 .hamburger {
-    margin: .2rem 2%;
+    margin: .2rem;
     background-color: transparent;
     border:none;
     font-size: 1.6rem;
@@ -53,12 +53,12 @@ nav {
 }
 .navigation {
     list-style-type: none;
-    padding: 0;
+    padding: 2rem;
     margin: 0;
 }
 .navigation li:first-child {
     display: block;
-    padding: .8rem 2%; 
+    padding: 2rem 2%; 
 }
 .navigation li{
     display:none;
@@ -66,6 +66,9 @@ nav {
 .navigation .active{
     background-color: #B5D07A;
     color:#023047;
+}
+.responsive li {
+	display: block;
 }
 .navigation a {
     display: block;
@@ -80,9 +83,7 @@ nav {
     color: #023047;
 	background-color: white;
 }
-.responsive li {
-	display: block;
-}
+
 .mainContent {
     margin:0;
 }
@@ -90,7 +91,27 @@ nav {
     margin-left:10%;
     font-size: 1.5rem;
 }
-/* home page first block styling*/
+/* weather alert div styling */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.closebtn:hover {
+    color: black;
+}
+/* home page first block styling*/ 
 #home-block-one {
     display: flex;
     flex-direction: column;
@@ -103,9 +124,9 @@ nav {
 }
 #weather-div {
     border: 1px solid #6E8DA7;
-    background-color: #B5D07A;
     font-family: 'Open Sans', sans-serif;
     padding:.5rem;
+    padding-top:1rem;
     text-align: center;
 }
 #currently-div {
@@ -294,21 +315,40 @@ tfoot {
 }
 /* directory page styling */
 .cards {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(12, 1fr);
-    grid-gap:0;
-    text-align: center;
-    padding:.5rem;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
     color:#204853;
     margin-top: 2rem;
 }
+.directory-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+}    
+.directory-buttons div {
+      margin: 0px 10px;
+      color: #FFFFFA;
+      cursor: pointer;
+}
+.directory-buttons div > * {
+    pointer-events: none;
+    max-height: 25px;
+}
+
 .cards h2 {
     font-size: 1.5rem;
     font-weight: bold;
 }
 .cards section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
     border: thin solid #B5D07A;
     padding:1rem;
 }
