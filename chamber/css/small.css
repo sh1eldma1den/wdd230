@@ -56,6 +56,9 @@ nav {
     padding: 2rem;
     margin: 0;
 }
+nav ul.hamb {
+    display: none;
+}
 .navigation li:first-child {
     display: block;
     padding: 2rem 2%; 
@@ -324,10 +327,7 @@ tfoot {
     margin-top: 2rem;
 }
 .directory-buttons {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding:1rem;
+    display: none;
 }    
 .directory-buttons div {
     margin: 0px 10px;

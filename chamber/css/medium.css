@@ -200,14 +200,21 @@
         padding-bottom: 5rem;
     }
     /* directory page styling */
-    #cards .grids {
+    .directory-buttons {
+        display: flex;
+        justify-content: flex-end;
+        padding:1rem;
+    } 
+    .cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        grid-gap: 1rem;
+        grid-gap: .5rem;
+        align-items: start;
+        align-items:stretch;
     }
-    #cards .list {
-        display: inline-block;
+    .cards.list {
+        grid-template-columns: 1fr;
     }
     /* join page styling */
     
